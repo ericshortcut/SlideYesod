@@ -1,0 +1,19 @@
+name:               shakespear
+version:            0.0.0
+cabal-version:      >= 1.8
+build-type:         Simple
+extra-source-files: routes
+
+executable          shakespear
+  main-is:          shakespear.hs
+
+  ghc-options:      -Wall -fwarn-tabs -O2
+
+  build-depends:  base
+                , yesod
+                , yesod-core
+                , yesod-static
+                , text
+                , shakespeare
+
+  ghc-options: -ddump-splices

@@ -1,0 +1,2709 @@
+
+==================== FINAL INTERFACE ====================
+2016-01-25 03:13:10.08925 UTC
+
+interface main@main:Main [family instance module] 7102
+  interface hash: 6ff8ffece5e31a20220058f8d25ed5d6
+  ABI hash: 434ecf60aa036a889267cdf5eb853d75
+  export-list hash: 3c2d6aba9ec97adb238f8a0af0d916b2
+  orphan hash: 0070d9e5b71da69b4e9284ae1171150c
+  flag hash: 910f737db9f7baec55ef4ed754284544
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: aeson-extra-0.2.1.0@aeson_00CInI6mf4E0IaIIvTXCtY
+                      aeson-0.8.0.2@aeson_EuKT6VLihZ5IOeoLWhB2pn
+                      ansi-terminal-0.6.2.3@ansit_KW0LUY2zB7JCYzE4ZYrwBg
+                      appar-0.1.4@appar_3CaAIJvwfNLEy6bEqQYYYc
+                      array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ
+                      attoparsec-0.12.1.6@attop_DspwQCeZhqd768dqqECCEZ
+                      auto-update-0.1.2.2@autou_2DkwjWlXXrh60SbDElbu3f base-4.8.1.0
+                      base64-bytestring-1.0.0.1@base6_5ombtuUXex39dVe2nth8cH
+                      binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd
+                      blaze-html-0.8.1.1@blaze_1zXVsYxJvNk7KmCYUCIuBj
+                      blaze-builder-0.4.0.1@blaze_6BKEupqZliOD9r4rLG9ckJ
+                      blaze-markup-0.7.0.3@blaze_FhrnjaI7C1I5CvgGhchX3R
+                      byteable-0.1.1@bytea_F2pcQljAfpbDG2panTEyo8
+                      byteorder-1.0.4@byteo_7FRRspR69KU9KubkPZfm74
+                      bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH
+                      case-insensitive-1.2.0.5@casei_9NseolisKnP80bb65s7rJ9
+                      cereal-0.4.1.1@cerea_LMaR4P6lFvNJtmY00msKYH
+                      cipher-aes-0.2.11@ciphe_2ERQ1dIZixg9tWYPK06AUH
+                      clientsession-0.9.1.1@clien_5kRtaeg6cgn8JeDlqKk4C7
+                      conduit-1.2.5@condu_9wHaNJrxyyq9dFXfK2u9W6
+                      conduit-extra-1.1.9.1@condu_KwDFYvfqb3oCPEpqLs5RdA
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      cookie-0.4.1.6@cooki_FJHZaRHUUOJ8okSoq5Xh3V
+                      cprng-aes-0.6.1@cprng_HBEG6jjDgoo5szNfzj66ME
+                      crypto-cipher-types-0.0.9@crypt_7fh37Ly4VLPKhwwe0j0lXN
+                      crypto-random-0.0.9@crypt_8HBxDhEOmiZBYlqNPLXEOa
+                      crypto-api-0.13.2@crypt_A5WnkM78khp1E9HeFIfO7N
+                      css-text-0.1.2.1@csste_AsOgpu0oUhUIxaI5X2qjxb
+                      data-default-instances-containers-0.0.1@datad_2eq6fuwf8Tk14CtKGZXhB5
+                      data-default-0.5.3@datad_5ESg1VNmkW3BMxo7EwKQrK
+                      data-default-instances-base-0.0.1@datad_6bNp7ygtVUW3TbxeJU4Irf
+                      data-default-class-0.0.1@datad_CgDdtafiXY68XlqDb5IqXw
+                      data-default-instances-old-locale-0.0.1@datad_D3fIWe3ExBN6VISnKTEJV3
+                      data-default-instances-dlist-0.0.1@datad_EXwD6nMCvj82LJzl8Xo6bb
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o
+                      directory-1.2.2.0@direc_KowvXytSqazBcvN7MGpFtg
+                      dlist-0.7.1.2@dlist_7AixcwRWCwX32HiPCcE7zz
+                      easy-file-0.2.1@easyf_FJwrEwDWX67AIqrB5x3TwS
+                      email-validate-2.1.3@email_KNOM4iwrKWXFb5Ec8otrSn
+                      entropy-0.3.7@entro_BTeyFmIz5b6F1k5rgnvcgO
+                      exceptions-0.8.0.2@excep_8GsEeHgaIks3pVGk6GaELJ
+                      fast-logger-2.4.1@fastl_5obpil597KwB2V9Hv2ZA9d
+                      filepath-1.4.0.0@filep_KsGE6pHE5eZHSN90ZVax6A ghc-prim-0.4.0.0
+                      hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy
+                      http2-1.0.4@http2_4sQuZ3WKGKmBNVNDFbJPRm
+                      http-date-0.0.6.1@httpd_2tf3nTFlI2kLGHPgsNfz1u
+                      http-types-0.8.6@httpt_C5IeULANR3XGcPcpozwQ7D integer-gmp-1.0.0.0
+                      iproute-1.5.0@iprou_B0SP369TCng5d8Pd7LByY9
+                      lifted-base-0.2.3.6@lifte_K3cQFA6mRg85rpDaA9numU
+                      memory-0.7@memor_ByKf2PUnWbr6V2Z5gsXbfn
+                      mmorph-1.0.4@mmorp_8dNpUU8QFPe77rrwKAb20b
+                      monad-control-1.0.0.4@monad_3XCDr1mqlERGZgaxuwJF6b
+                      monad-loops-0.4.3@monad_EQoySqNZ2bd85KCgzAOO4M
+                      monad-logger-0.3.14@monad_LPwgDi9JpFEGNVRYbWvREh
+                      mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU
+                      mwc-random-0.13.3.2@mwcra_0iGmPos4Pta2ISXJLjBtd8
+                      network-2.6.2.1@netwo_F6mK9sCIw3M5SbZMt2lUQE
+                      network-uri-2.6.0.3@netwo_LFMzacKIfjmC6gRt5N3aSz
+                      old-locale-1.0.0.7@oldlo_D6X1KPq5Sui5XjrHMwvFwK
+                      old-time-1.1.0.3@oldti_FBWJJDS5FKr7UKFScBcUW2
+                      parsec-3.1.9@parse_8fSmqig53hOL2SEu1k9Tv0
+                      path-pieces-0.2.0@pathp_J0g0J8bkzER1Juj01TEf96
+                      persistent-template-2.1.3.7@persi_BE4iTuqhVssDaBQ4Lj3JRN
+                      persistent-2.2.1@persi_JtP9Zc16gv25fMrQ82pQ72
+                      pretty-1.1.2.0@prett_7UQTOB05U7lIYPkFOVraeR
+                      primitive-0.6.1.0@primi_5Jnw7oEuYtM9dmKXelGXVb
+                      process-1.2.3.0@proce_FLTz0SLwyG6LJUpZ52HjkU
+                      random-1.1@rando_1z8Ujelqc6aKgvPnbRUKkP
+                      resource-pool-0.2.3.2@resou_07WWhNMBPs8Ihbjf6mIyPw
+                      resourcet-1.1.6@resou_Ic1TzDDmqYbFNHpzRsDmfS
+                      safe-0.3.9@safe_BXSoeRP9IFG6t9s3abNgVi
+                      scientific-0.3.4.2@scien_4y53jPjKCJD6UICjmI9WaH
+                      securemem-0.1.9@secur_IVsZrOqGXes1eaVFfLeM4x
+                      semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO
+                      shakespeare-2.0.6@shake_H6AYCzksHF8LdCuHfpTccR
+                      silently-1.2.5@silen_8uJ39lhRp4MCX1bkpH7HLp
+                      simple-sendfile-0.2.21@simpl_8JinxnD07KP3TRgmAVYt64
+                      skein-1.0.9.3@skein_IvDavUTFfZ4JYOyVidCzES
+                      stm-2.4.4@stm_C1kFMnPqFjvDhFjgMZGUpr
+                      stm-chans-3.0.0.4@stmch_7j9sHjGqeHj8Gs1cUILhfw
+                      streaming-commons-0.1.14.2@strea_6MWdbeujUEQEUDv55904UY
+                      stringsearch-0.3.6.6@strin_LD3tXxltwdY99HXR2kj3px
+                      tagged-0.8.1@tagge_6Tf46oJAk552xT73wGffBW
+                      tagsoup-0.13.3@tagso_ImwiOxTXDQzEs0zEAu9cq0
+                      template-haskell-2.10.0.0 text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh
+                      time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH
+                      transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X
+                      transformers-base-0.4.4@trans_88TAFm21vtn2NrYUppy50c
+                      unix-2.7.1.0@unix_A3WgcI5QiHK4PDo4jSYdwQ
+                      unix-compat-0.4.1.4@unixc_DeAF5HEzYMu4CPLnbGbHUz
+                      unix-time-0.3.5@unixt_AvHwgK1Y2i0DqLqnUno9kP
+                      unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a
+                      utf8-string-1.0.1.1@utf8s_HWC8Qen5AZrArJxFQJuE72
+                      vault-0.3.0.4@vault_0ClHfttEXGC8o1TYTuenH0
+                      vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ
+                      wai-3.0.4.0@wai_IMYA1U3SnZGIWgxCNGPKnn
+                      wai-extra-3.0.11.1@waiex_DRiEtVdiqX6GApgqFvzluj
+                      wai-logger-2.2.4.1@wailo_KKSGrktapgYCYkxiEFCnmo
+                      warp-3.1.3.1@warp_I7pHmGTMFaeLd7lvMlKc8E
+                      word8-0.1.2@word8_JFinUbIMmjfAdy4qiZBFBe
+                      xss-sanitize-0.3.5.6@xsssa_AIAsTAGdhaXAYbcEpBnab3
+                      yesod-1.4.2@yesod_0krXskZHAATK3cepIsBazA
+                      yesod-core-1.4.15.1@yesod_2xcmm3Dke2U0MaCJoF2RTB
+                      yesod-persistent-1.4.0.3@yesod_6L7MY9qQZX4EEG9c1phr5X
+                      yesod-form-1.4.4.1@yesod_B1lLuvFFBKK5hsUoEwFYh4
+                      zlib-0.5.4.2@zlib_7EfFFsXSCF6JCVS3xlYBS8
+orphans: aeson-0.8.0.2@aeson_EuKT6VLihZ5IOeoLWhB2pn:Data.Aeson.Types.Generic
+         aeson-0.8.0.2@aeson_EuKT6VLihZ5IOeoLWhB2pn:Data.Aeson.Types.Instances
+         attoparsec-0.12.1.6@attop_DspwQCeZhqd768dqqECCEZ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.12.1.6@attop_DspwQCeZhqd768dqqECCEZ:Data.Attoparsec.Text.Internal
+         base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+         binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Builder
+         conduit-1.2.5@condu_9wHaNJrxyyq9dFXfK2u9W6:Data.Conduit.List
+         crypto-api-0.13.2@crypt_A5WnkM78khp1E9HeFIfO7N:Crypto.Classes
+         data-default-instances-containers-0.0.1@datad_2eq6fuwf8Tk14CtKGZXhB5:Data.Default.Instances.Containers
+         data-default-instances-base-0.0.1@datad_6bNp7ygtVUW3TbxeJU4Irf:Data.Default.Instances.Base
+         data-default-instances-old-locale-0.0.1@datad_D3fIWe3ExBN6VISnKTEJV3:Data.Default.Instances.OldLocale
+         data-default-instances-dlist-0.0.1@datad_EXwD6nMCvj82LJzl8Xo6bb:Data.Default.Instances.DList
+         hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy:Data.Hashable.Generic
+         network-2.6.2.1@netwo_F6mK9sCIw3M5SbZMt2lUQE:Network.Socket
+         network-2.6.2.1@netwo_F6mK9sCIw3M5SbZMt2lUQE:Network.Socket.Types
+         persistent-template-2.1.3.7@persi_BE4iTuqhVssDaBQ4Lj3JRN:Database.Persist.TH
+         persistent-2.2.1@persi_JtP9Zc16gv25fMrQ82pQ72:Database.Persist.Sql.Orphan.PersistQuery
+         persistent-2.2.1@persi_JtP9Zc16gv25fMrQ82pQ72:Database.Persist.Sql.Orphan.PersistStore
+         persistent-2.2.1@persi_JtP9Zc16gv25fMrQ82pQ72:Database.Persist.Sql.Orphan.PersistUnique
+         stm-2.4.4@stm_C1kFMnPqFjvDhFjgMZGUpr:Control.Monad.STM
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Show
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.Format.Parse
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X:Control.Monad.Trans.Error
+         unix-time-0.3.5@unixt_AvHwgK1Y2i0DqLqnUno9kP:Data.UnixTime.Diff
+         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Fusion.Stream
+         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.12.1.6@attop_DspwQCeZhqd768dqqECCEZ:Data.Attoparsec.Internal.Types
+                         base-4.8.1.0:Control.Applicative base-4.8.1.0:Data.Either
+                         base-4.8.1.0:Data.Functor.Identity base-4.8.1.0:Data.Monoid
+                         base-4.8.1.0:Data.Type.Equality base-4.8.1.0:Data.Void
+                         base-4.8.1.0:GHC.Exts base-4.8.1.0:GHC.Generics
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntMap.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntSet.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Sequence
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+                         dlist-0.7.1.2@dlist_7AixcwRWCwX32HiPCcE7zz:Data.DList
+                         email-validate-2.1.3@email_KNOM4iwrKWXFb5Ec8otrSn:Text.Email.Parser
+                         iproute-1.5.0@iprou_B0SP369TCng5d8Pd7LByY9:Data.IP.Addr
+                         iproute-1.5.0@iprou_B0SP369TCng5d8Pd7LByY9:Data.IP.Range
+                         monad-control-1.0.0.4@monad_3XCDr1mqlERGZgaxuwJF6b:Control.Monad.Trans.Control
+                         monad-logger-0.3.14@monad_LPwgDi9JpFEGNVRYbWvREh:Control.Monad.Logger
+                         mwc-random-0.13.3.2@mwcra_0iGmPos4Pta2ISXJLjBtd8:System.Random.MWC
+                         network-uri-2.6.0.3@netwo_LFMzacKIfjmC6gRt5N3aSz:Network.URI
+                         persistent-2.2.1@persi_JtP9Zc16gv25fMrQ82pQ72:Database.Persist.Class.PersistConfig
+                         persistent-2.2.1@persi_JtP9Zc16gv25fMrQ82pQ72:Database.Persist.Sql.Orphan.PersistStore
+                         pretty-1.1.2.0@prett_7UQTOB05U7lIYPkFOVraeR:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_5Jnw7oEuYtM9dmKXelGXVb:Control.Monad.Primitive
+                         resourcet-1.1.6@resou_Ic1TzDDmqYbFNHpzRsDmfS:Control.Monad.Trans.Resource.Internal
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.List.NonEmpty
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.Semigroup
+                         shakespeare-2.0.6@shake_H6AYCzksHF8LdCuHfpTccR:Text.Css
+                         shakespeare-2.0.6@shake_H6AYCzksHF8LdCuHfpTccR:Text.Shakespeare
+                         tagged-0.8.1@tagge_6Tf46oJAk552xT73wGffBW:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashMap.Base
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashSet
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Primitive
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Storable
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Unboxed
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Unboxed.Base
+                         yesod-core-1.4.15.1@yesod_2xcmm3Dke2U0MaCJoF2RTB:Yesod.Core.Class.Handler
+                         yesod-core-1.4.15.1@yesod_2xcmm3Dke2U0MaCJoF2RTB:Yesod.Core.Internal.LiteApp
+                         yesod-core-1.4.15.1@yesod_2xcmm3Dke2U0MaCJoF2RTB:Yesod.Core.Types
+import  -/  base-4.8.1.0:Control.Applicative a283901553892ce761385d18e455c2ce
+import  -/  base-4.8.1.0:Data.Functor 5c701b0af1708f0192a25dfe14ce6274
+import  -/  base-4.8.1.0:Data.Tuple 012ad951a59a9d85fe1de36a2f012986
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.Read cfaa50b414b9b02ef6fe4fe5600d9b95
+import  -/  base-4.8.1.0:GHC.Show b8c65ca3124f92a166c9f05120382442
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  base-4.8.1.0:Text.Read.Lex 1ec4c08d49d1d5264b910cc76b6c6fde
+import  -/  blaze-html-0.8.1.1@blaze_1zXVsYxJvNk7KmCYUCIuBj:Text.Blaze.Html 20338b6845796ca3cfb0923f118f214b
+import  -/  blaze-markup-0.7.0.3@blaze_FhrnjaI7C1I5CvgGhchX3R:Text.Blaze.Internal 9b5aa510dbcc59fd42b33d76138a58d1
+import  -/  containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base c7b7d74b8d8362cfd63af801b9be5c84
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  shakespeare-2.0.6@shake_H6AYCzksHF8LdCuHfpTccR:Text.Shakespeare.I18N ffcbf726ab6ddb695f36c0104a6e8e56
+import  -/  text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text e74c40da976ee643cb7d3cc6a9b83643
+import  -/  text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Internal 9aaf446b91649c416d85a19f08d51f8e
+import  -/  wai-3.0.4.0@wai_IMYA1U3SnZGIWgxCNGPKnn:Network.Wai.Internal 7e3b9d08a481a59ed8105c7ca355603c
+import  -/  yesod-1.4.2@yesod_0krXskZHAATK3cepIsBazA:Yesod d0392ef041d2283e6ce220a4044045b7
+import  -/  yesod-core-1.4.15.1@yesod_2xcmm3Dke2U0MaCJoF2RTB:Yesod.Core.Class.Dispatch 8b208963eca3a091e1c15667605e7229
+import  -/  yesod-core-1.4.15.1@yesod_2xcmm3Dke2U0MaCJoF2RTB:Yesod.Core.Class.Yesod 71eef9371db7db4d30686217c4737b61
+import  -/  yesod-core-1.4.15.1@yesod_2xcmm3Dke2U0MaCJoF2RTB:Yesod.Core.Dispatch 17e0a96e25021d9e42063511496acbf4
+import  -/  yesod-core-1.4.15.1@yesod_2xcmm3Dke2U0MaCJoF2RTB:Yesod.Core.Handler bd4935b53d3496c14b67ee9c0fa08711
+import  -/  yesod-core-1.4.15.1@yesod_2xcmm3Dke2U0MaCJoF2RTB:Yesod.Core.Internal.Run c38ecc4b2079c7934f303ed50aae4e6e
+import  -/  yesod-core-1.4.15.1@yesod_2xcmm3Dke2U0MaCJoF2RTB:Yesod.Core.Internal.TH 73fb2c5559d4c738ee5a1eef6ee90c3d
+import  -/  yesod-core-1.4.15.1@yesod_2xcmm3Dke2U0MaCJoF2RTB:Yesod.Core.Types 13c633dda1a712aa0394b9d7f4849bc5
+import  -/  yesod-core-1.4.15.1@yesod_2xcmm3Dke2U0MaCJoF2RTB:Yesod.Core.Widget 65346ae2748ddb523109bca98c71dc5c
+import  -/  yesod-core-1.4.15.1@yesod_2xcmm3Dke2U0MaCJoF2RTB:Yesod.Routes.Class ccd3450fc309ab0870ff9d72f473ec6b
+import  -/  yesod-core-1.4.15.1@yesod_2xcmm3Dke2U0MaCJoF2RTB:Yesod.Routes.TH.Types cea4e821fb4df8fbf9cdd7085e9c4419
+import  -/  yesod-form-1.4.4.1@yesod_B1lLuvFFBKK5hsUoEwFYh4:Yesod.Form.Fields ae8f0eb6733a501972ff1547ba57d81d
+import  -/  yesod-form-1.4.4.1@yesod_B1lLuvFFBKK5hsUoEwFYh4:Yesod.Form.Functions 4c811f53b094b7d585282b1800f10a1b
+import  -/  yesod-form-1.4.4.1@yesod_B1lLuvFFBKK5hsUoEwFYh4:Yesod.Form.Types 4a9d5c788722e1d53ac33e420867b09d
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fEqRoute ::
+    GHC.Classes.Eq (Yesod.Routes.Class.Route Main.Formulario)
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Routes.Class.Route Main.Formulario)
+                  Main.$fEqRoute_$c==
+                  Main.$fEqRoute_$c/= -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fEqRoute_$c/= ::
+    Yesod.Routes.Class.Route Main.Formulario
+    -> Yesod.Routes.Class.Route Main.Formulario -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a83 :: Yesod.Routes.Class.Route Main.Formulario
+                   b :: Yesod.Routes.Class.Route Main.Formulario ->
+                 case a83 of tpl { DEFAULT ->
+                 case b of tpl1 { DEFAULT -> GHC.Types.False } }) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fEqRoute_$c== ::
+    Yesod.Routes.Class.Route Main.Formulario
+    -> Yesod.Routes.Class.Route Main.Formulario -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: Yesod.Routes.Class.Route Main.Formulario
+                   ds1 :: Yesod.Routes.Class.Route Main.Formulario ->
+                 case ds of tpl { DEFAULT ->
+                 case ds1 of tpl1 { DEFAULT -> GHC.Types.True } }) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fParseRouteFormulario ::
+    Yesod.Routes.Class.ParseRoute Main.Formulario
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Formulario
+                  Main.$fRenderRouteFormulario
+                  Main.$fParseRouteFormulario_$cparseRoute -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fParseRouteFormulario1 ::
+    GHC.Base.Maybe (Yesod.Routes.Class.Route Main.Formulario)
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Base.Just
+                   @ (Yesod.Routes.Class.Route Main.Formulario)
+                   Main.HomeR `cast` (Sub (Sym (Main.TFCo:R:RouteFormulario[0])))) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fParseRouteFormulario_$cparseRoute ::
+    ([Data.Text.Internal.Text],
+     [(Data.Text.Internal.Text, Data.Text.Internal.Text)])
+    -> GHC.Base.Maybe (Yesod.Routes.Class.Route Main.Formulario)
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x7 :: ([Data.Text.Internal.Text],
+                          [(Data.Text.Internal.Text, Data.Text.Internal.Text)]) ->
+                 case x7 of wild { (,) x8 ds1 ->
+                 case x8 of wild1 {
+                   [] -> Main.$fParseRouteFormulario1
+                   : ipv ipv1
+                   -> GHC.Base.Nothing
+                        @ (Yesod.Routes.Class.Route Main.Formulario) } }) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fReadRoute ::
+    GHC.Read.Read (Yesod.Routes.Class.Route Main.Formulario)
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Routes.Class.Route Main.Formulario)
+                  Main.$fReadRoute_$s$dmreadsPrec
+                  Main.$fReadRoute_$sreadListDefault
+                  Main.$fReadRoute_$creadPrec
+                  Main.$fReadRoute_$creadListPrec -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fReadRoute1 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       ([Yesod.Routes.Class.Route Main.Formulario]
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <L,A><L,C(U)>,
+     Unfolding: InlineRule (2, True, True)
+                (\ eta :: Text.ParserCombinators.ReadPrec.Prec
+                   @ b
+                   eta1 :: [Yesod.Routes.Class.Route Main.Formulario]
+                           -> Text.ParserCombinators.ReadP.P b ->
+                 GHC.Read.$wa
+                   @ (Yesod.Routes.Class.Route Main.Formulario)
+                   Main.$fReadRoute2
+                     `cast`
+                   (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                             <Yesod.Routes.Class.Route Main.Formulario>_R))
+                   @ b
+                   eta1) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fReadRoute2 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> Text.ParserCombinators.ReadP.ReadP
+         (Yesod.Routes.Class.Route Main.Formulario)
+  {- Arity: 1,
+     Unfolding: (GHC.Read.$fReadDouble10
+                   @ (Yesod.Routes.Class.Route Main.Formulario)
+                   Main.$fReadRoute3
+                     `cast`
+                   (Trans
+                        (<Text.ParserCombinators.ReadPrec.Prec>_R
+                         ->_R Sym (Text.ParserCombinators.ReadP.NTCo:ReadP[0]
+                                       <Yesod.Routes.Class.Route Main.Formulario>_R))
+                        (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                                  <Yesod.Routes.Class.Route Main.Formulario>_R)))) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fReadRoute3 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b1.
+       (Yesod.Routes.Class.Route Main.Formulario
+        -> Text.ParserCombinators.ReadP.P b1)
+       -> Text.ParserCombinators.ReadP.P b1
+  {- Arity: 2, Strictness: <L,A><L,1*C1(U)>m2, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: Text.ParserCombinators.ReadPrec.Prec
+                   @ b1
+                   w1 :: Yesod.Routes.Class.Route Main.Formulario
+                         -> Text.ParserCombinators.ReadP.P b1 ->
+                 case Main.$wa @ b1 w1 of ww { (##) ww1 ->
+                 Text.ParserCombinators.ReadP.Look @ b1 ww1 }) -}
+30fd627d99dd38faf4db720806b84285
+  $fReadRoute4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "HomeR"#) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fReadRoute_$creadListPrec ::
+    Text.ParserCombinators.ReadPrec.ReadPrec
+      [Yesod.Routes.Class.Route Main.Formulario]
+  {- Arity: 2, Strictness: <L,A><L,C(U)>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fReadRoute1
+                  `cast`
+                (Trans
+                     (<Text.ParserCombinators.ReadPrec.Prec>_R
+                      ->_R Sym (Text.ParserCombinators.ReadP.NTCo:ReadP[0]
+                                    <[Yesod.Routes.Class.Route Main.Formulario]>_R))
+                     (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                               <[Yesod.Routes.Class.Route Main.Formulario]>_R))) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fReadRoute_$creadPrec ::
+    Text.ParserCombinators.ReadPrec.ReadPrec
+      (Yesod.Routes.Class.Route Main.Formulario)
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fReadRoute2
+                  `cast`
+                (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                          <Yesod.Routes.Class.Route Main.Formulario>_R)) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fReadRoute_$s$dmreadsPrec ::
+    GHC.Types.Int
+    -> Text.ParserCombinators.ReadP.ReadS
+         (Yesod.Routes.Class.Route Main.Formulario)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (-1, True, False)
+                (\ eta :: GHC.Types.Int ->
+                 Text.ParserCombinators.ReadPrec.readPrec_to_S
+                   @ (Yesod.Routes.Class.Route Main.Formulario)
+                   Main.$fReadRoute_$creadPrec
+                   eta) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fReadRoute_$sreadListDefault ::
+    Text.ParserCombinators.ReadP.ReadS
+      [Yesod.Routes.Class.Route Main.Formulario]
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, False)
+                (Text.ParserCombinators.ReadP.run
+                   @ [Yesod.Routes.Class.Route Main.Formulario]
+                   ((Main.$fReadRoute_$creadListPrec
+                       `cast`
+                     (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                          <[Yesod.Routes.Class.Route Main.Formulario]>_R)
+                       GHC.Read.$fRead(,)7)
+                      `cast`
+                    (Text.ParserCombinators.ReadP.NTCo:ReadP[0]
+                         <[Yesod.Routes.Class.Route Main.Formulario]>_R)
+                      @ [Yesod.Routes.Class.Route Main.Formulario]
+                      (Text.ParserCombinators.ReadP.$fApplicativeP_$creturn
+                         @ [Yesod.Routes.Class.Route Main.Formulario]))) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fRenderMessageFormularioFormMessage ::
+    Text.Shakespeare.I18N.RenderMessage
+      Main.Formulario Yesod.Form.Types.FormMessage
+  DFunId[0]
+  {- Arity: 3, Strictness: <L,A><L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fRenderMessageFormularioFormMessage_$crenderMessage
+                  `cast`
+                (Sym (Text.Shakespeare.I18N.NTCo:RenderMessage[0]
+                          <Main.Formulario>_N <Yesod.Form.Types.FormMessage>_N)) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fRenderMessageFormularioFormMessage_$crenderMessage ::
+    Main.Formulario
+    -> [Text.Shakespeare.I18N.Lang]
+    -> Yesod.Form.Types.FormMessage
+    -> Data.Text.Internal.Text
+  {- Arity: 3, Strictness: <L,A><L,A>,
+     Unfolding: InlineRule (2, True, True)
+                (\ ds :: Main.Formulario
+                   ds1 :: [Text.Shakespeare.I18N.Lang]
+                   eta :: Yesod.Form.Types.FormMessage ->
+                 Yesod.Form.I18n.English.englishFormMessage eta) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fRenderRouteFormulario ::
+    Yesod.Routes.Class.RenderRoute Main.Formulario
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Formulario
+                  Main.$fEqRoute
+                  Main.$fRenderRouteFormulario_$crenderRoute -}
+80c6646e0b7f8ccd3925ff7ea9464dbd
+  $fRenderRouteFormulario1 ::
+    ([Data.Text.Internal.Text],
+     [(Data.Text.Internal.Text, Data.Text.Internal.Text)])
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: ((GHC.Types.[] @ Data.Text.Internal.Text,
+                  GHC.Types.[]
+                    @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fRenderRouteFormulario_$crenderRoute ::
+    Yesod.Routes.Class.Route Main.Formulario
+    -> ([Data.Text.Internal.Text],
+        [(Data.Text.Internal.Text, Data.Text.Internal.Text)])
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Yesod.Routes.Class.Route Main.Formulario ->
+                 case ds of tpl { DEFAULT -> Main.$fRenderRouteFormulario1 }) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fRouteAttrsFormulario ::
+    Yesod.Routes.Class.RouteAttrs Main.Formulario
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Formulario
+                  Main.$fRenderRouteFormulario
+                  Main.$fRouteAttrsFormulario_$crouteAttrs -}
+d807517416667a238810e206ed1ca0b7
+  $fRouteAttrsFormulario1 ::
+    Data.Set.Base.Set Data.Text.Internal.Text
+  {- Unfolding: (Main.$fRouteAttrsFormulario_$sfromList
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fRouteAttrsFormulario_$crouteAttrs ::
+    Yesod.Routes.Class.Route Main.Formulario
+    -> Data.Set.Base.Set Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Yesod.Routes.Class.Route Main.Formulario ->
+                 case ds of tpl { DEFAULT -> Main.$fRouteAttrsFormulario1 }) -}
+32f33ccde6e958979610de10783404f0
+  $fRouteAttrsFormulario_$s$wgo5 ::
+    GHC.Prim.Int#
+    -> Data.Set.Base.Set Data.Text.Internal.Text
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> [Data.Text.Internal.Text]
+    -> Data.Set.Base.Set Data.Text.Internal.Text
+  {- Arity: 6, Strictness: <L,U><S,1*U><L,U><L,U><L,U><L,U> -}
+fe1ec7b2e949fe8a19df723419d0e598
+  $fRouteAttrsFormulario_$sfromList ::
+    [Data.Text.Internal.Text]
+    -> Data.Set.Base.Set Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ ds :: [Data.Text.Internal.Text] ->
+                 case ds of wild {
+                   [] -> Data.Set.Base.Tip @ Data.Text.Internal.Text
+                   : x7 ds1
+                   -> case ds1 of wild1 {
+                        []
+                        -> case x7 of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                           Data.Set.Base.Bin
+                             @ Data.Text.Internal.Text
+                             1
+                             dt
+                             (Data.Set.Base.Tip @ Data.Text.Internal.Text)
+                             (Data.Set.Base.Tip @ Data.Text.Internal.Text) }
+                        : ipv ipv1
+                        -> case x7 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                           case ipv of ww4 { Data.Text.Internal.Text ww5 ww6 ww7 ->
+                           case Data.Text.$w$ccompare ww1 ww2 ww3 ww5 ww6 ww7 of wild2 {
+                             DEFAULT
+                             -> Main.$fRouteAttrsFormulario_$sgo5
+                                  (Data.Set.Base.Bin
+                                     @ Data.Text.Internal.Text
+                                     1
+                                     ww
+                                     (Data.Set.Base.Tip @ Data.Text.Internal.Text)
+                                     (Data.Set.Base.Tip @ Data.Text.Internal.Text))
+                                  ww5
+                                  ww6
+                                  ww7
+                                  ipv1
+                             GHC.Types.LT
+                             -> Main.$fRouteAttrsFormulario_$s$wgo5
+                                  1
+                                  (Data.Set.Base.Bin
+                                     @ Data.Text.Internal.Text
+                                     1
+                                     ww
+                                     (Data.Set.Base.Tip @ Data.Text.Internal.Text)
+                                     (Data.Set.Base.Tip @ Data.Text.Internal.Text))
+                                  ww5
+                                  ww6
+                                  ww7
+                                  ipv1 } } } } }) -}
+6a9ba9192f183dc1aad126dcf8a0ac0a
+  $fRouteAttrsFormulario_$sgo5 ::
+    Data.Set.Base.Set Data.Text.Internal.Text
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> [Data.Text.Internal.Text]
+    -> Data.Set.Base.Set Data.Text.Internal.Text
+  {- Arity: 5, Strictness: <S,1*U><L,U><L,U><L,U><L,U> -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fShowRoute ::
+    GHC.Show.Show (Yesod.Routes.Class.Route Main.Formulario)
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Routes.Class.Route Main.Formulario)
+                  Main.$fShowRoute_$cshowsPrec
+                  Main.$fShowRoute_$cshow
+                  Main.$fShowRoute_$cshowList -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fShowRoute1 ::
+    Yesod.Routes.Class.Route Main.Formulario -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: Yesod.Routes.Class.Route Main.Formulario
+                   eta :: GHC.Base.String ->
+                 case ds of tpl { DEFAULT ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b c :: GHC.Types.Char -> b -> b[OneShot] n :: b[OneShot] ->
+                    GHC.Base.foldr @ GHC.Types.Char @ b c n Main.$fReadRoute4)
+                   eta }) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fShowRoute_$cshow ::
+    Yesod.Routes.Class.Route Main.Formulario -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x7 :: Yesod.Routes.Class.Route Main.Formulario ->
+                 case x7 of tpl { DEFAULT -> Main.$fReadRoute4 }) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fShowRoute_$cshowList ::
+    [Yesod.Routes.Class.Route Main.Formulario] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ (Yesod.Routes.Class.Route Main.Formulario)
+                   Main.$fShowRoute1) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fShowRoute_$cshowsPrec ::
+    GHC.Types.Int
+    -> Yesod.Routes.Class.Route Main.Formulario -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ ds :: GHC.Types.Int
+                   ds1 :: Yesod.Routes.Class.Route Main.Formulario
+                   eta :: GHC.Base.String ->
+                 case ds1 of tpl { DEFAULT ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b c :: GHC.Types.Char -> b -> b[OneShot] n :: b[OneShot] ->
+                    GHC.Base.foldr @ GHC.Types.Char @ b c n Main.$fReadRoute4)
+                   eta }) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodDispatchFormulario ::
+    Yesod.Core.Class.Dispatch.YesodDispatch Main.Formulario
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Formulario
+                  Main.$fYesodFormulario
+                  Main.$fYesodDispatchFormulario_$cyesodDispatch -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodDispatchFormulario_$cyesodDispatch ::
+    Yesod.Core.Types.YesodRunnerEnv Main.Formulario
+    -> Network.Wai.Application
+  {- Arity: 2,
+     Strictness: <L,U(U,U,U,U,C(U(U,1*U(U,U,U))))><S(LLLLLLLSLLLLLL),1*U(U(U,U,U,U),U,U,U,U,U,U,U,U,U,U,U,U,U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: Yesod.Core.Types.YesodRunnerEnv Main.Formulario
+                   w1 :: Network.Wai.Internal.Request ->
+                 case w1 of ww { Network.Wai.Internal.Request ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ww13 ww14 ->
+                 Main.$w$cyesodDispatch
+                   w
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   ww5
+                   ww6
+                   ww7
+                   ww8
+                   ww9
+                   ww10
+                   ww11
+                   ww12
+                   ww13
+                   ww14 }) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario :: Yesod.Core.Class.Yesod.Yesod Main.Formulario
+  DFunId[0]
+  {- Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Formulario
+                  Main.$fRenderRouteFormulario
+                  Main.$fYesodFormulario_$s$dmapproot
+                  Main.$fYesodFormulario_$cerrorHandler
+                  Main.$fYesodFormulario_$cdefaultLayout
+                  Main.$fYesodFormulario_$s$dmurlRenderOverride
+                  Main.$fYesodFormulario_$cisAuthorized
+                  Main.$fYesodFormulario_$cisWriteRequest
+                  Main.$fYesodFormulario_$s$dmauthRoute
+                  Main.$fYesodFormulario_$ccleanPath
+                  Main.$fYesodFormulario_$cjoinPath
+                  Main.$fYesodFormulario_$caddStaticContent
+                  Main.$fYesodFormulario_$s$dmmaximumContentLength
+                  Main.$fYesodFormulario_$cmakeLogger
+                  Main.$fYesodFormulario_$cmessageLoggerSource
+                  Main.$fYesodFormulario_$s$dmjsLoader
+                  Main.$fYesodFormulario_$cmakeSessionBackend
+                  Main.$fYesodFormulario_$cfileUpload
+                  Main.$fYesodFormulario_$s$dmshouldLog
+                  Main.$fYesodFormulario_$cshouldLogIO
+                  Main.$fYesodFormulario_$cyesodMiddleware
+                  Main.$fYesodFormulario_$cyesodWithInternalState -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario1 ::
+    Yesod.Core.Content.ToTypedContent res =>
+    Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO res
+    -> Yesod.Core.Types.HandlerData
+         Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, res #)
+  {- Arity: 4,
+     Strictness: <L,A><L,1*C1(C1(U(U,U)))><S(SSLSL),1*U(U,U,U,U,U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, False)
+                (\ @ res
+                   w :: Yesod.Core.Content.ToTypedContent res
+                   w1 :: Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO res
+                   w2 :: Yesod.Core.Types.HandlerData
+                           Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+                   w3 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case w2 of ww { Yesod.Core.Types.HandlerData ww1 ww2 ww3 ww4 ww5 ->
+                 Main.$wa1 @ res w1 ww1 ww2 ww3 ww4 ww5 w3 }) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario10 ::
+    Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> Yesod.Core.Types.HandlerData
+         Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Base.Maybe
+            (Data.Either.Either
+               Data.Text.Internal.Text
+               (Yesod.Routes.Class.Route Main.Formulario,
+                [(Data.Text.Internal.Text, Data.Text.Internal.Text)])) #)
+  {- Arity: 5, HasNoCafRefs, Strictness: <L,A><L,A><L,A><L,A><L,U>,
+     Unfolding: InlineRule (5, True, True)
+                (\ ds :: Data.Text.Internal.Text
+                   ds1 :: Data.Text.Internal.Text
+                   ds2 :: Data.ByteString.Lazy.Internal.ByteString
+                   eta :: Yesod.Core.Types.HandlerData
+                            Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+                   eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# eta1,
+                    GHC.Base.Nothing
+                      @ (Data.Either.Either
+                           Data.Text.Internal.Text
+                           (Yesod.Routes.Class.Route Main.Formulario,
+                            [(Data.Text.Internal.Text, Data.Text.Internal.Text)])) #)) -}
+6c2f3a7c4e5222268778f273095113d4
+  $fYesodFormulario11 ::
+    Data.Text.Internal.Text -> Data.Text.Internal.Text
+  {- Arity: 1 -}
+31d2496a970a2e504a0602409a223f49
+  $fYesodFormulario12 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Data.Text.Internal.empty_
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+e71b8a7a97728d961e90c6e013a160a3
+  $fYesodFormulario13 ::
+    (Data.Text.Internal.Text, Data.Text.Internal.Text)
+    -> (Data.ByteString.Internal.ByteString,
+        GHC.Base.Maybe Data.ByteString.Internal.ByteString)
+  {- Arity: 1,
+     Unfolding: (\ ds :: (Data.Text.Internal.Text,
+                          Data.Text.Internal.Text) ->
+                 (case ds of wild { (,) x7 y -> Data.Text.Encoding.encodeUtf8 x7 },
+                  case ds of wild { (,) x7 y ->
+                  case y of wild1 { Data.Text.Internal.Text dt1 dt2 dt3 ->
+                  case Data.Text.Internal.empty_ of wild2 { Data.Text.Internal.Text dt4 dt5 dt6 ->
+                  case GHC.Prim.tagToEnum#
+                         @ GHC.Types.Bool
+                         (GHC.Prim.==# dt3 dt6) of wild3 {
+                    GHC.Types.False
+                    -> GHC.Base.Just
+                         @ Data.ByteString.Internal.ByteString
+                         (Data.Text.Encoding.$wencodeUtf8 dt1 dt2 dt3)
+                    GHC.Types.True
+                    -> case {__pkg_ccall text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                  -> GHC.Prim.Word#
+                                                                                                  -> GHC.Prim.ByteArray#
+                                                                                                  -> GHC.Prim.Word#
+                                                                                                  -> GHC.Prim.Word#
+                                                                                                  -> GHC.Prim.State#
+                                                                                                       GHC.Prim.RealWorld
+                                                                                                  -> (# GHC.Prim.State#
+                                                                                                          GHC.Prim.RealWorld,
+                                                                                                        GHC.Prim.Int# #)}
+                              dt1
+                              (GHC.Prim.int2Word# dt2)
+                              dt4
+                              (GHC.Prim.int2Word# dt5)
+                              (GHC.Prim.int2Word# dt3)
+                              GHC.Prim.realWorld# of wild4 { (#,#) ds11 ds12 ->
+                       case GHC.Prim.narrow32Int# ds12 of wild5 {
+                         DEFAULT
+                         -> GHC.Base.Just
+                              @ Data.ByteString.Internal.ByteString
+                              (Data.Text.Encoding.$wencodeUtf8 dt1 dt2 dt3)
+                         0
+                         -> GHC.Base.Nothing
+                              @ Data.ByteString.Internal.ByteString } } } } } })) -}
+a2e5143bd13b1176d93707a611d657f8
+  $fYesodFormulario14 ::
+    Data.Text.Internal.Text -> Data.Text.Internal.Text
+  {- Arity: 1,
+     Unfolding: (\ t :: Data.Text.Internal.Text ->
+                 case t of wild { Data.Text.Internal.Text dt dt1 dt2 ->
+                 let {
+                   a83 :: GHC.Prim.Int# = GHC.Prim.+# dt1 dt2
+                 } in
+                 letrec {
+                   $wloop_all :: GHC.Prim.Int# -> GHC.Types.Bool
+                     {- Arity: 1, Strictness: <L,U>, Inline: [0] -}
+                   = \ ww :: GHC.Prim.Int# ->
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.>=# ww a83) of wild1 {
+                       GHC.Types.False
+                       -> case GHC.Prim.indexWord16Array# dt ww of r# { DEFAULT ->
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.geWord# r# __word 55296) of wild2 {
+                            GHC.Types.False
+                            -> case GHC.Prim.chr# (GHC.Prim.word2Int# r#) of wild4 {
+                                 DEFAULT -> GHC.Types.False '-' -> $wloop_all (GHC.Prim.+# ww 1) }
+                            GHC.Types.True
+                            -> case GHC.Prim.tagToEnum#
+                                      @ GHC.Types.Bool
+                                      (GHC.Prim.leWord# r# __word 56319) of wild3 {
+                                 GHC.Types.False
+                                 -> case GHC.Prim.chr# (GHC.Prim.word2Int# r#) of wild4 {
+                                      DEFAULT -> GHC.Types.False
+                                      '-' -> $wloop_all (GHC.Prim.+# ww 1) }
+                                 GHC.Types.True
+                                 -> case GHC.Prim.indexWord16Array#
+                                           dt
+                                           (GHC.Prim.+# ww 1) of r#1 { DEFAULT ->
+                                    case GHC.Prim.chr#
+                                           (GHC.Prim.+#
+                                              (GHC.Prim.+#
+                                                 (GHC.Prim.uncheckedIShiftL#
+                                                    (GHC.Prim.-# (GHC.Prim.word2Int# r#) 55296)
+                                                    10)
+                                                 (GHC.Prim.-# (GHC.Prim.word2Int# r#1) 56320))
+                                              65536) of wild4 {
+                                      DEFAULT -> GHC.Types.False
+                                      '-' -> $wloop_all (GHC.Prim.+# ww 2) } } } } }
+                       GHC.Types.True -> GHC.Types.True }
+                 } in
+                 case $wloop_all dt1 of wild1 {
+                   GHC.Types.False -> wild
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.>=# 1 dt2) of wild3 {
+                        GHC.Types.False
+                        -> case Data.Text.$witerN
+                                  Main.$fYesodFormulario15
+                                  dt
+                                  dt1
+                                  dt2 of ww4 { DEFAULT ->
+                           case GHC.Prim.-# dt2 ww4 of wild5 {
+                             DEFAULT -> Data.Text.Internal.Text dt (GHC.Prim.+# dt1 ww4) wild5
+                             0 -> Data.Text.Internal.empty } }
+                        GHC.Types.True -> Data.Text.Internal.empty } } }) -}
+af26f60174cd050287bea1675d8661b2
+  $fYesodFormulario15 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 1) -}
+5febd48d3597881a8365255cf7d9f378
+  $fYesodFormulario16 :: Data.Text.Internal.Text -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(A,A,U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x7 :: Data.Text.Internal.Text ->
+                 case x7 of wild { Data.Text.Internal.Text dt dt1 dt2 ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<=# dt2 0) of wild1 {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False } }) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario17 ::
+    Yesod.Core.Types.HandlerData
+      Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Types.Bool #)
+  {- Arity: 2,
+     Unfolding: (\ r :: Yesod.Core.Types.HandlerData
+                          Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+                   s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case (Main.$fYesodFormulario_ds
+                         `cast`
+                       (Yesod.Core.Types.NTCo:HandlerT[0]
+                            <Main.Formulario>_N
+                            <GHC.Types.IO>_N
+                            <Network.Wai.Internal.Request>_N)
+                         r)
+                        `cast`
+                      (GHC.Types.NTCo:IO[0] <Network.Wai.Internal.Request>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 (# ipv,
+                    case GHC.List.elem
+                           @ Network.HTTP.Types.Method.Method
+                           Data.ByteString.Internal.$fEqByteString
+                           (case ipv1 of wild { Network.Wai.Internal.Request ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ->
+                            ds2 })
+                           Main.$fYesodFormulario18 of wild {
+                      GHC.Types.False -> GHC.Types.True
+                      GHC.Types.True -> GHC.Types.False } #) }) -}
+fa264f85563be8d607aa526a820129eb
+  $fYesodFormulario18 :: [Network.HTTP.Types.Method.Method]
+  {- Unfolding: (GHC.Types.:
+                   @ Network.HTTP.Types.Method.Method
+                   Main.$fYesodFormulario25
+                   Main.$fYesodFormulario19) -}
+e6db4fcbae47bf1c1aa7fcc4a2d57342
+  $fYesodFormulario19 :: [Network.HTTP.Types.Method.Method]
+  {- Unfolding: (GHC.Types.:
+                   @ Network.HTTP.Types.Method.Method
+                   Main.$fYesodFormulario24
+                   Main.$fYesodFormulario20) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario2 ::
+    Main.Formulario
+    -> Control.Monad.Logger.LogSource
+    -> Control.Monad.Logger.LogLevel
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Types.Bool #)
+  {- Arity: 4, HasNoCafRefs, Strictness: <L,A><L,A><L,1*U><L,U>,
+     Unfolding: InlineRule (4, True, False)
+                (\ a123 :: Main.Formulario
+                   b :: Control.Monad.Logger.LogSource
+                   c :: Control.Monad.Logger.LogLevel
+                   eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# eta1, Yesod.Core.Class.Yesod.defaultShouldLog b c #)) -}
+2d8d1a6f8defeb308b9823c54376ec23
+  $fYesodFormulario20 :: [Network.HTTP.Types.Method.Method]
+  {- Unfolding: (GHC.Types.:
+                   @ Network.HTTP.Types.Method.Method
+                   Main.$fYesodFormulario23
+                   Main.$fYesodFormulario21) -}
+c9ad2ee66822b35e1df122d67a72d63b
+  $fYesodFormulario21 :: [Network.HTTP.Types.Method.Method]
+  {- Unfolding: (GHC.Types.:
+                   @ Network.HTTP.Types.Method.Method
+                   Main.$fYesodFormulario22
+                   (GHC.Types.[] @ Network.HTTP.Types.Method.Method)) -}
+1608813496c7e60813959da310e665ba
+  $fYesodFormulario22 :: Network.HTTP.Types.Method.Method
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   s :: GHC.Prim.Addr# = "TRACE"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        s
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   s
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+11ac27f0d0fbdf42495b1d56c3c1e629
+  $fYesodFormulario23 :: Network.HTTP.Types.Method.Method
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   s :: GHC.Prim.Addr# = "OPTIONS"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        s
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   s
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+cc290d85ae835078f5a445f399bbf747
+  $fYesodFormulario24 :: Network.HTTP.Types.Method.Method
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   s :: GHC.Prim.Addr# = "HEAD"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        s
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   s
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+a9825b7030435c1b453403ead5506a19
+  $fYesodFormulario25 :: Network.HTTP.Types.Method.Method
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   s :: GHC.Prim.Addr# = "GET"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        s
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   s
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+2f0a2e60dba7cba5b20c4f5d7dbd6ad1
+  $fYesodFormulario26 ::
+    Control.Monad.Trans.Resource.MonadResourceBase GHC.Types.IO
+  {- Strictness: m,
+     Unfolding: ((Control.Monad.Trans.Control.$fMonadBaseControlIOIO,
+                  Control.Monad.Catch.$fMonadThrowIO,
+                  Control.Monad.Base.$fMonadBaseIOIO,
+                  Control.Monad.IO.Class.$fMonadIOIO,
+                  GHC.Base.$fApplicativeIO)) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario27 ::
+    Control.Monad.Trans.Resource.Internal.MonadResource
+      (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodFormulario_$s$fMonadResourceHandlerT -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario28 ::
+    Control.Monad.Base.MonadBase
+      GHC.Types.IO
+      (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodFormulario_$s$fMonadBasebHandlerT -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario29 :: GHC.Base.Monad Main.Handler
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodFormulario_$s$fMonadHandlerT -}
+2fc5fc6972c3c195b05720f65208f15d
+  $fYesodFormulario3 :: Yesod.Core.Types.FileUpload
+  {- Strictness: m1,
+     Unfolding: (Yesod.Core.Types.FileUploadMemory
+                   Main.$fYesodFormulario4) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario30 ::
+    GHC.Base.String
+    -> Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO a
+  {- Arity: 1, Strictness: <B,U>b,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a83 eta :: [GHC.Types.Char] ->
+                 GHC.Err.error
+                   @ (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO a83)
+                   eta) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario31 ::
+    GHC.Base.Applicative
+      (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodFormulario_$s$fApplicativeHandlerT -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario32 ::
+    GHC.Base.Functor
+      (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                (Yesod.Core.Handler.$s$fFunctorHandlerT @ Main.Formulario) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario33 ::
+    Control.Monad.IO.Class.MonadIO
+      (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodFormulario_$s$fMonadIOHandlerT -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario34 ::
+    Control.Monad.Catch.MonadThrow
+      (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodFormulario_$s$fMonadThrowHandlerT -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario35 ::
+    Yesod.Routes.Class.Route Main.Formulario
+    -> GHC.Types.Bool
+    -> Yesod.Core.Types.HandlerData
+         Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Yesod.Core.Types.AuthResult #)
+  {- Arity: 4, HasNoCafRefs, Strictness: <L,A><L,A><L,A><L,U>,
+     Unfolding: InlineRule (4, True, True)
+                (\ ds :: Yesod.Routes.Class.Route Main.Formulario
+                   ds1 :: GHC.Types.Bool
+                   eta :: Yesod.Core.Types.HandlerData
+                            Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+                   eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# eta1, Yesod.Core.Types.Authorized #)) -}
+f0b5a2bfdf123b0f1668c9be36415d6d
+  $fYesodFormulario4 ::
+    Data.ByteString.Internal.ByteString
+    -> Network.Wai.Parse.FileInfo ()
+    -> GHC.Types.IO Data.ByteString.Internal.ByteString
+    -> GHC.Types.IO Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 3, Strictness: <L,A><L,A><L,U>,
+     Unfolding: InlineRule (3, True, True)
+                (\ w1 :: Data.ByteString.Internal.ByteString
+                   w2 :: Network.Wai.Parse.FileInfo ()
+                   w3 :: GHC.Types.IO Data.ByteString.Internal.ByteString ->
+                 Network.Wai.Parse.$wlbsBackEnd
+                   @ Data.ByteString.Internal.ByteString
+                   @ (Network.Wai.Parse.FileInfo ())
+                   @ GHC.Types.IO
+                   GHC.Base.$fMonadIO
+                   w3) -}
+db96605b38e2ee98d80d4b3a4c4f5821
+  $fYesodFormulario5 :: Yesod.Core.Types.FileUpload
+  {- Strictness: m2,
+     Unfolding: (Yesod.Core.Types.FileUploadDisk
+                   (Network.Wai.Parse.tempFileBackEnd1
+                      @ Data.ByteString.Internal.ByteString
+                      @ (Network.Wai.Parse.FileInfo ()))
+                     `cast`
+                   (<Control.Monad.Trans.Resource.InternalState>_R
+                    ->_R <Data.ByteString.Internal.ByteString>_R
+                    ->_R <Network.Wai.Parse.FileInfo ()>_R
+                    ->_R <GHC.Types.IO Data.ByteString.Internal.ByteString>_R
+                    ->_R Sym (GHC.Types.NTCo:IO[0] <GHC.IO.FilePath>_R))) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario6 ::
+    Main.Formulario
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Base.Maybe Yesod.Core.Types.SessionBackend #)
+  {- Arity: 2, Strictness: <L,A><L,U>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, True)
+                (\ w :: Main.Formulario
+                   w1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 Main.$wa2 w1) -}
+d50731eeecdc33c8819fd8fb88bbcc9e
+  $fYesodFormulario7 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (__integer 7200000000000000) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario8 ::
+    Main.Formulario
+    -> Yesod.Core.Types.Logger
+    -> Language.Haskell.TH.Syntax.Loc
+    -> Control.Monad.Logger.LogSource
+    -> Control.Monad.Logger.LogLevel
+    -> System.Log.FastLogger.LogStr.LogStr
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 7,
+     Strictness: <L,A><L,U(U(A,1*U(U),1*U(U(U),U(U),A,U),1*C1(U(U,U))),U)><L,1*U(1*U,U,1*U,1*U(1*U(U),1*U(U)),A)><L,1*U(U,U,U)><S,U><L,1*U(U,C(U))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (7, True, True)
+                (\ w :: Main.Formulario
+                   w1 :: Yesod.Core.Types.Logger
+                   w2 :: Language.Haskell.TH.Syntax.Loc
+                   w3 :: Control.Monad.Logger.LogSource
+                   w4 :: Control.Monad.Logger.LogLevel
+                   w5 :: System.Log.FastLogger.LogStr.LogStr
+                   w6 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 Main.$wa3 w1 w2 w3 w4 w5 w6) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario9 ::
+    Main.Formulario
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Yesod.Core.Types.Logger #)
+  {- Arity: 2, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ ds :: Main.Formulario
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 Yesod.Core.Class.Yesod.defaultMakeLogger1 eta) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$caddStaticContent ::
+    Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> Yesod.Core.Types.HandlerT
+         Main.Formulario
+         GHC.Types.IO
+         (GHC.Base.Maybe
+            (Data.Either.Either
+               Data.Text.Internal.Text
+               (Yesod.Routes.Class.Route Main.Formulario,
+                [(Data.Text.Internal.Text, Data.Text.Internal.Text)])))
+  {- Arity: 5, HasNoCafRefs, Strictness: <L,A><L,A><L,A><L,A><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodFormulario10
+                  `cast`
+                (<Data.Text.Internal.Text>_R
+                 ->_R <Data.Text.Internal.Text>_R
+                 ->_R <Data.ByteString.Lazy.Internal.ByteString>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData
+                              Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0]
+                                         <GHC.Base.Maybe
+                                            (Data.Either.Either
+                                               Data.Text.Internal.Text
+                                               (Yesod.Routes.Class.Route Main.Formulario,
+                                                [(Data.Text.Internal.Text,
+                                                  Data.Text.Internal.Text)]))>_R))
+                          (Sym (Yesod.Core.Types.NTCo:HandlerT[0]
+                                    <Main.Formulario>_N
+                                    <GHC.Types.IO>_N
+                                    <GHC.Base.Maybe
+                                       (Data.Either.Either
+                                          Data.Text.Internal.Text
+                                          (Yesod.Routes.Class.Route Main.Formulario,
+                                           [(Data.Text.Internal.Text,
+                                             Data.Text.Internal.Text)]))>_N))) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$ccleanPath ::
+    Main.Formulario
+    -> [Data.Text.Internal.Text]
+    -> Data.Either.Either
+         [Data.Text.Internal.Text] [Data.Text.Internal.Text]
+  {- Arity: 2, Strictness: <L,A><S,U>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, True)
+                (\ w :: Main.Formulario w1 :: [Data.Text.Internal.Text] ->
+                 Main.$w$ccleanPath w1) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$cdefaultLayout ::
+    Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO ()
+    -> Yesod.Core.Types.HandlerT
+         Main.Formulario GHC.Types.IO Text.Blaze.Html.Html
+  {- Arity: 1, Strictness: <L,U> -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$cerrorHandler ::
+    Yesod.Core.Types.ErrorResponse
+    -> Yesod.Core.Types.HandlerT
+         Main.Formulario GHC.Types.IO Yesod.Core.Types.TypedContent
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$cfileUpload ::
+    Main.Formulario
+    -> Network.Wai.Internal.RequestBodyLength
+    -> Yesod.Core.Types.FileUpload
+  {- Arity: 2, Strictness: <L,A><S,1*U>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, True)
+                (\ w :: Main.Formulario
+                   w1 :: Network.Wai.Internal.RequestBodyLength ->
+                 Main.$w$cfileUpload w1) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$cisAuthorized ::
+    Yesod.Routes.Class.Route Main.Formulario
+    -> GHC.Types.Bool
+    -> Yesod.Core.Types.HandlerT
+         Main.Formulario GHC.Types.IO Yesod.Core.Types.AuthResult
+  {- Arity: 4, HasNoCafRefs, Strictness: <L,A><L,A><L,A><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodFormulario35
+                  `cast`
+                (<Yesod.Routes.Class.Route Main.Formulario>_R
+                 ->_R <GHC.Types.Bool>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData
+                              Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <Yesod.Core.Types.AuthResult>_R))
+                          (Sym (Yesod.Core.Types.NTCo:HandlerT[0]
+                                    <Main.Formulario>_N
+                                    <GHC.Types.IO>_N
+                                    <Yesod.Core.Types.AuthResult>_N))) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$cisWriteRequest ::
+    Yesod.Routes.Class.Route Main.Formulario
+    -> Yesod.Core.Types.HandlerT
+         Main.Formulario GHC.Types.IO GHC.Types.Bool
+  {- Arity: 3, Strictness: <L,A>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, True)
+                (\ w :: Yesod.Routes.Class.Route Main.Formulario
+                   eta :: Yesod.Core.Types.HandlerData
+                            Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+                   eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 Main.$fYesodFormulario17 eta eta1)
+                  `cast`
+                (<Yesod.Routes.Class.Route Main.Formulario>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData
+                              Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <GHC.Types.Bool>_R))
+                          (Sym (Yesod.Core.Types.NTCo:HandlerT[0]
+                                    <Main.Formulario>_N <GHC.Types.IO>_N <GHC.Types.Bool>_N))) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$cjoinPath ::
+    Main.Formulario
+    -> Data.Text.Internal.Text
+    -> [Data.Text.Internal.Text]
+    -> [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+    -> Data.ByteString.Builder.Internal.Builder
+  {- Arity: 4, Strictness: <L,A><L,1*U(U,U,U)><L,1*U><L,1*U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, True)
+                (\ w :: Main.Formulario
+                   w1 :: Data.Text.Internal.Text
+                   w2 :: [Data.Text.Internal.Text]
+                   w3 :: [(Data.Text.Internal.Text, Data.Text.Internal.Text)] ->
+                 Main.$w$cjoinPath w1 w2 w3) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$cmakeLogger ::
+    Main.Formulario -> GHC.Types.IO Yesod.Core.Types.Logger
+  {- Arity: 2, Strictness: <L,A>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodFormulario9
+                  `cast`
+                (<Main.Formulario>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <Yesod.Core.Types.Logger>_R)) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$cmakeSessionBackend ::
+    Main.Formulario
+    -> GHC.Types.IO (GHC.Base.Maybe Yesod.Core.Types.SessionBackend)
+  {- Arity: 2, Strictness: <L,A><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodFormulario6
+                  `cast`
+                (<Main.Formulario>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0]
+                               <GHC.Base.Maybe Yesod.Core.Types.SessionBackend>_R)) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$cmessageLoggerSource ::
+    Main.Formulario
+    -> Yesod.Core.Types.Logger
+    -> Language.Haskell.TH.Syntax.Loc
+    -> Control.Monad.Logger.LogSource
+    -> Control.Monad.Logger.LogLevel
+    -> System.Log.FastLogger.LogStr.LogStr
+    -> GHC.Types.IO ()
+  {- Arity: 7,
+     Strictness: <L,A><L,U(U(A,1*U(U),1*U(U(U),U(U),A,U),1*C1(U(U,U))),U)><L,1*U(1*U,U,1*U,1*U(1*U(U),1*U(U)),A)><L,1*U(U,U,U)><S,U><L,1*U(U,C(U))><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodFormulario8
+                  `cast`
+                (<Main.Formulario>_R
+                 ->_R <Yesod.Core.Types.Logger>_R
+                 ->_R <Language.Haskell.TH.Syntax.Loc>_R
+                 ->_R <Control.Monad.Logger.LogSource>_R
+                 ->_R <Control.Monad.Logger.LogLevel>_R
+                 ->_R <System.Log.FastLogger.LogStr.LogStr>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$cshouldLogIO ::
+    Main.Formulario
+    -> Control.Monad.Logger.LogSource
+    -> Control.Monad.Logger.LogLevel
+    -> GHC.Types.IO GHC.Types.Bool
+  {- Arity: 4, HasNoCafRefs, Strictness: <L,A><L,A><L,1*U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodFormulario2
+                  `cast`
+                (<Main.Formulario>_R
+                 ->_R <Control.Monad.Logger.LogSource>_R
+                 ->_R <Control.Monad.Logger.LogLevel>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <GHC.Types.Bool>_R)) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$cyesodMiddleware ::
+    Yesod.Core.Content.ToTypedContent res =>
+    Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO res
+    -> Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO res
+  {- Arity: 4,
+     Strictness: <L,A><L,1*C1(C1(U(U,U)))><S(SSLSL),1*U(U,U,U,U,U)><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodFormulario1
+                  `cast`
+                (forall res.
+                 <Yesod.Core.Content.ToTypedContent res>_R
+                 ->_R <Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO res>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData
+                              Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <res>_R))
+                          (Sym (Yesod.Core.Types.NTCo:HandlerT[0]
+                                    <Main.Formulario>_N <GHC.Types.IO>_N <res>_N))) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$cyesodWithInternalState ::
+    Main.Formulario
+    -> GHC.Base.Maybe (Yesod.Routes.Class.Route Main.Formulario)
+    -> (Control.Monad.Trans.Resource.InternalState -> GHC.Types.IO a)
+    -> GHC.Types.IO a
+  {- Arity: 4, Strictness: <L,A><L,A><L,1*C1(C1(U))><L,U>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (2, False, True)
+                (\ @ a123
+                   ds :: Main.Formulario
+                   ds1 :: GHC.Base.Maybe (Yesod.Routes.Class.Route Main.Formulario)
+                   eta1 :: Control.Monad.Trans.Resource.InternalState
+                           -> GHC.Types.IO a123
+                   eta2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (Control.Exception.Base.bracket
+                    @ Control.Monad.Trans.Resource.InternalState
+                    @ ()
+                    @ a123
+                    Yesod.Core.Class.Yesod.$dmyesodWithInternalState_$screateInternalState
+                    Yesod.Core.Class.Yesod.$dmyesodWithInternalState_$scloseInternalState
+                    eta1)
+                   `cast`
+                 (GHC.Types.NTCo:IO[0] <a123>_R)
+                   eta2)
+                  `cast`
+                (forall a123.
+                 <Main.Formulario>_R
+                 ->_R <GHC.Base.Maybe (Yesod.Routes.Class.Route Main.Formulario)>_R
+                 ->_R <Control.Monad.Trans.Resource.InternalState
+                       -> GHC.Types.IO a123>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <a123>_R)) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$dmapproot ::
+    Yesod.Core.Types.Approot Main.Formulario
+  {- HasNoCafRefs,
+     Unfolding: InlineRule (-1, True, True)
+                (Yesod.Core.Types.ApprootRelative @ Main.Formulario) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$dmauthRoute ::
+    Main.Formulario
+    -> GHC.Base.Maybe (Yesod.Routes.Class.Route Main.Formulario)
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ ds :: Main.Formulario ->
+                 GHC.Base.Nothing @ (Yesod.Routes.Class.Route Main.Formulario)) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$dmjsLoader ::
+    Main.Formulario
+    -> Yesod.Core.Types.ScriptLoadPosition Main.Formulario
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ ds :: Main.Formulario ->
+                 Yesod.Core.Types.BottomOfBody @ Main.Formulario) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$dmmaximumContentLength ::
+    Main.Formulario
+    -> GHC.Base.Maybe (Yesod.Routes.Class.Route Main.Formulario)
+    -> GHC.Base.Maybe GHC.Word.Word64
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,A><L,A>m2,
+     Unfolding: InlineRule (-1, True, False)
+                (\ ds :: Main.Formulario
+                   ds1 :: GHC.Base.Maybe (Yesod.Routes.Class.Route Main.Formulario) ->
+                 GHC.Base.$
+                   @ GHC.Word.Word64
+                   @ (GHC.Base.Maybe GHC.Word.Word64)
+                   (GHC.Base.Just @ GHC.Word.Word64)
+                   (GHC.Word.$fNumWord64_$c*
+                      (GHC.Word.$fNumWord64_$c*
+                         (GHC.Word.$cfromInteger3 __integer 2)
+                         (GHC.Word.$cfromInteger3 __integer 1024))
+                      (GHC.Word.$cfromInteger3 __integer 1024))) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$dmshouldLog ::
+    Main.Formulario
+    -> Control.Monad.Logger.LogSource
+    -> Control.Monad.Logger.LogLevel
+    -> GHC.Types.Bool
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><S,1*U>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ ds :: Main.Formulario
+                   eta1 :: Control.Monad.Logger.LogSource
+                   eta2 :: Control.Monad.Logger.LogLevel ->
+                 Yesod.Core.Class.Yesod.defaultShouldLog eta1 eta2) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$dmurlRenderOverride ::
+    Main.Formulario
+    -> Yesod.Routes.Class.Route Main.Formulario
+    -> GHC.Base.Maybe Data.ByteString.Builder.Internal.Builder
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,A><L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ ds :: Main.Formulario
+                   ds1 :: Yesod.Routes.Class.Route Main.Formulario ->
+                 GHC.Base.Nothing @ Data.ByteString.Builder.Internal.Builder) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$fApplicativeHandlerT ::
+    GHC.Base.Applicative
+      (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+                  Main.$fYesodFormulario32
+                  Main.$fYesodFormulario_$s$fApplicativeHandlerT_$cpure
+                  (Yesod.Core.Types.$fApplicativeHandlerT_$c<*>
+                     @ Main.Formulario
+                     @ GHC.Types.IO
+                     Main.$fYesodFormulario32
+                     GHC.Base.$fMonadIO)
+                  (Yesod.Core.Types.$fApplicativeHandlerT_$c*>
+                     @ Main.Formulario
+                     @ GHC.Types.IO
+                     Main.$fYesodFormulario32
+                     GHC.Base.$fMonadIO)
+                  (Yesod.Core.Types.$fApplicativeHandlerT_$c<*
+                     @ Main.Formulario
+                     @ GHC.Types.IO
+                     Main.$fYesodFormulario32
+                     GHC.Base.$fMonadIO) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$fApplicativeHandlerT_$cpure ::
+    a -> Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO a
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><L,A><L,U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a83
+                   eta :: a83
+                   eta1 :: Yesod.Core.Types.HandlerData
+                             Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+                   eta2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (GHC.Base.returnIO @ a83 eta) `cast` (GHC.Types.NTCo:IO[0] <a83>_R)
+                   eta2)
+                  `cast`
+                (forall a83.
+                 <a83>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData
+                              Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <a83>_R))
+                          (Sym (Yesod.Core.Types.NTCo:HandlerT[0]
+                                    <Main.Formulario>_N <GHC.Types.IO>_N <a83>_N))) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$fMonadBasebHandlerT ::
+    Control.Monad.Base.MonadBase
+      GHC.Types.IO
+      (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ GHC.Types.IO
+                  @ (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+                  GHC.Base.$fApplicativeIO
+                  Main.$fYesodFormulario31
+                  GHC.Base.$fMonadIO
+                  Main.$fYesodFormulario29
+                  Main.$fYesodFormulario_$s$fMonadBasebHandlerT_$cliftBase -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$fMonadBasebHandlerT_$cliftBase ::
+    GHC.Types.IO α
+    -> Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO α
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,A>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ α eta :: GHC.Types.IO α ->
+                 let {
+                   eta1 :: GHC.Types.IO α = GHC.Base.id @ (GHC.Types.IO α) eta
+                 } in
+                 (\ ds :: Yesod.Core.Types.HandlerData
+                            Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO) ->
+                  eta1)
+                   `cast`
+                 (Sym (Yesod.Core.Types.NTCo:HandlerT[0]
+                           <Main.Formulario>_N <GHC.Types.IO>_N <α>_N))) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$fMonadHandlerHandlerT ::
+    Yesod.Core.Class.Handler.MonadHandler
+      (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+                  Main.$fYesodFormulario27
+                  (Yesod.Core.Class.Handler.$fMonadHandlerHandlerT_$cliftHandlerT
+                     @ Main.Formulario
+                     @ GHC.Types.IO
+                     Main.$fYesodFormulario27
+                     Main.$fYesodFormulario26) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$fMonadHandlerT ::
+    GHC.Base.Monad
+      (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+                  Main.$fYesodFormulario31
+                  (Yesod.Core.Types.$fMonadHandlerT_$c>>=
+                     @ Main.Formulario
+                     @ GHC.Types.IO
+                     Main.$fYesodFormulario31
+                     GHC.Base.$fMonadIO)
+                  (Yesod.Core.Types.$fMonadHandlerT_$c>>
+                     @ Main.Formulario
+                     @ GHC.Types.IO
+                     Main.$fYesodFormulario31
+                     GHC.Base.$fMonadIO)
+                  Main.$fYesodFormulario_$s$fApplicativeHandlerT_$cpure
+                  Main.$fYesodFormulario30 -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$fMonadIOHandlerT ::
+    Control.Monad.IO.Class.MonadIO
+      (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+                  Main.$fYesodFormulario29
+                  Main.$fYesodFormulario_$s$fMonadBasebHandlerT_$cliftBase -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$fMonadResourceHandlerT ::
+    Control.Monad.Trans.Resource.Internal.MonadResource
+      (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+                  Main.$fYesodFormulario34
+                  Main.$fYesodFormulario33
+                  Main.$fYesodFormulario31
+                  Main.$fYesodFormulario28
+                  (Yesod.Core.Types.$fMonadResourceHandlerT_$cliftResourceT
+                     @ Main.Formulario
+                     @ GHC.Types.IO
+                     Main.$fYesodFormulario34
+                     Main.$fYesodFormulario33
+                     Main.$fYesodFormulario31
+                     Main.$fYesodFormulario28
+                     Control.Monad.IO.Class.$fMonadIOIO
+                     Control.Monad.Base.$fMonadBaseIOIO
+                     Control.Monad.Catch.$fMonadThrowIO) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$fMonadThrowHandlerT ::
+    Control.Monad.Catch.MonadThrow
+      (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+                  Main.$fYesodFormulario29
+                  Main.$fYesodFormulario_$s$fMonadThrowHandlerT_$cthrowM -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_$s$fMonadThrowHandlerT_$cthrowM ::
+    GHC.Exception.Exception e =>
+    e -> Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO a
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <B,1*U(A,A,1*C1(U),A,A)><B,U><B,A><B,U>b,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ e
+                   @ a83
+                   eta :: GHC.Exception.Exception e
+                   x7 :: e
+                   eta1 :: Yesod.Core.Types.HandlerData
+                             Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+                   eta2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (GHC.IO.throwIO @ e @ a83 eta x7)
+                   `cast`
+                 (GHC.Types.NTCo:IO[0] <a83>_R)
+                   eta2)
+                  `cast`
+                (forall e a83.
+                 <GHC.Exception.Exception e>_R
+                 ->_R <e>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData
+                              Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <a83>_R))
+                          (Sym (Yesod.Core.Types.NTCo:HandlerT[0]
+                                    <Main.Formulario>_N <GHC.Types.IO>_N <a83>_N))) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $fYesodFormulario_ds ::
+    Yesod.Core.Types.HandlerT
+      Main.Formulario GHC.Types.IO Network.Wai.Internal.Request
+  {- Unfolding: (Yesod.Core.Handler.waiRequest
+                   @ (Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO)
+                   Main.$fYesodFormulario_$s$fMonadHandlerHandlerT) -}
+a9387190a02d43e28017d7573fdc62a8
+  $s$fApplicativeWidgetT ::
+    GHC.Base.Applicative
+      (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+                  Main.$s$fApplicativeWidgetT1
+                  Main.$s$fApplicativeWidgetT_$s$fApplicativeWidgetT_$cpure
+                  (Yesod.Core.Types.$fApplicativeWidgetT_$c<*>
+                     @ Main.Formulario
+                     @ GHC.Types.IO
+                     Main.$s$fApplicativeWidgetT1
+                     GHC.Base.$fMonadIO)
+                  Main.$s$fApplicativeWidgetT_$s$fApplicativeWidgetT_$c*>
+                  Main.$s$fApplicativeWidgetT_$s$fApplicativeWidgetT_$c<* -}
+cb93fb4b934bac292be368811f87db93
+  $s$fApplicativeWidgetT1 ::
+    GHC.Base.Functor
+      (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                (Yesod.Core.Class.Yesod.$s$fFunctorWidgetT @ Main.Formulario) -}
+5feb24aacd730dfdc28f3610a276762c
+  $s$fApplicativeWidgetT_$s$fApplicativeWidgetT_$c*> ::
+    Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO a
+    -> Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO b
+    -> Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO b
+  {- Arity: 2, Strictness: <L,C(U)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a83
+                   @ b
+                   eta :: Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO a83
+                   eta1 :: Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO b ->
+                 Yesod.Core.Types.$fApplicativeWidgetT_$c<*>
+                   @ Main.Formulario
+                   @ GHC.Types.IO
+                   Main.$s$fApplicativeWidgetT1
+                   GHC.Base.$fMonadIO
+                   @ b
+                   @ b
+                   (Yesod.Core.Class.Yesod.$s$fFunctorWidgetT_$s$fFunctorWidgetT_$c<$
+                      @ Main.Formulario
+                      @ (b -> b)
+                      @ a83
+                      (GHC.Base.id @ b)
+                      eta)
+                   eta1) -}
+a56869f7562fb373e3dc77719bbde812
+  $s$fApplicativeWidgetT_$s$fApplicativeWidgetT_$c<* ::
+    Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO a
+    -> Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO b
+    -> Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO a
+  {- Arity: 2, Strictness: <L,C(U)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a83
+                   @ b
+                   eta :: Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO a83
+                   eta1 :: Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO b ->
+                 Yesod.Core.Types.$fApplicativeWidgetT_$c<*>
+                   @ Main.Formulario
+                   @ GHC.Types.IO
+                   Main.$s$fApplicativeWidgetT1
+                   GHC.Base.$fMonadIO
+                   @ b
+                   @ a83
+                   (Yesod.Core.Types.$fFunctorWidgetT_$cfmap
+                      @ Main.Formulario
+                      @ GHC.Types.IO
+                      GHC.Base.$fMonadIO
+                      @ a83
+                      @ (b -> a83)
+                      (GHC.Base.const @ a83 @ b)
+                      eta)
+                   eta1) -}
+0fed1ec3da1852256d50fff9d6e829bd
+  $s$fApplicativeWidgetT_$s$fApplicativeWidgetT_$cpure ::
+    a -> Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO a
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><L,A><L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a83
+                   a84 :: a83
+                   eta :: Yesod.Core.Types.HandlerData
+                            Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+                   eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (GHC.Base.returnIO
+                    @ (a83,
+                       Yesod.Core.Types.GWData (Yesod.Routes.Class.Route Main.Formulario))
+                    (a84,
+                     Yesod.Core.Types.$fApplicativeWidgetT_$cmempty
+                       @ (Yesod.Routes.Class.Route Main.Formulario)))
+                   `cast`
+                 (GHC.Types.NTCo:IO[0]
+                      <(a83,
+                        Yesod.Core.Types.GWData
+                          (Yesod.Routes.Class.Route Main.Formulario))>_R)
+                   eta1)
+                  `cast`
+                (forall a83.
+                 <a83>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData
+                              Main.Formulario (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0]
+                                         <(a83,
+                                           Yesod.Core.Types.GWData
+                                             (Yesod.Routes.Class.Route Main.Formulario))>_R))
+                          (Sym (Yesod.Core.Types.NTCo:WidgetT[0]
+                                    <Main.Formulario>_N <GHC.Types.IO>_N <a83>_N))) -}
+8f84e4b597184191f8ec05000b608193
+  $s$fMonadBasebWidgetT ::
+    Control.Monad.Base.MonadBase
+      GHC.Types.IO
+      (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ GHC.Types.IO
+                  @ (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+                  GHC.Base.$fApplicativeIO
+                  Main.$s$fMonadBasebWidgetT3
+                  GHC.Base.$fMonadIO
+                  Main.$s$fMonadBasebWidgetT1
+                  (Yesod.Core.Types.$fMonadBasebWidgetT_$cliftBase
+                     @ GHC.Types.IO
+                     @ Main.Formulario
+                     @ GHC.Types.IO
+                     GHC.Base.$fApplicativeIO
+                     Main.$s$fMonadBasebWidgetT3
+                     GHC.Base.$fMonadIO
+                     Main.$s$fMonadBasebWidgetT1
+                     Control.Monad.Base.$fMonadBaseIOIO) -}
+726978fcc7cb6a5981a60336266ccefe
+  $s$fMonadBasebWidgetT1 ::
+    GHC.Base.Monad
+      (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fMonadBasebWidgetT_$s$fMonadWidgetT -}
+1491ba051681b9606e4cc31289ce121b
+  $s$fMonadBasebWidgetT2 ::
+    GHC.Base.String
+    -> Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO a
+  {- Arity: 1, Strictness: <B,U>b,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a83 eta :: [GHC.Types.Char] ->
+                 GHC.Err.error
+                   @ (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO a83)
+                   eta) -}
+bc02e8e32bf583bb28bafc585404fc7b
+  $s$fMonadBasebWidgetT3 ::
+    GHC.Base.Applicative
+      (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fApplicativeWidgetT -}
+d19e9ace223dba6e9c2a5ab2154c1ffa
+  $s$fMonadBasebWidgetT_$s$fMonadWidgetT ::
+    GHC.Base.Monad
+      (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+                  Main.$s$fMonadBasebWidgetT3
+                  (Yesod.Core.Types.$fMonadWidgetT_$c>>=
+                     @ Main.Formulario
+                     @ GHC.Types.IO
+                     Main.$s$fMonadBasebWidgetT3
+                     GHC.Base.$fMonadIO)
+                  (Yesod.Core.Types.$fMonadWidgetT_$c>>
+                     @ Main.Formulario
+                     @ GHC.Types.IO
+                     Main.$s$fMonadBasebWidgetT3
+                     GHC.Base.$fMonadIO)
+                  Main.$s$fApplicativeWidgetT_$s$fApplicativeWidgetT_$cpure
+                  Main.$s$fMonadBasebWidgetT2 -}
+3a90b465c77964b8271da605acff14d6
+  $s$fMonadHandlerWidgetT ::
+    Yesod.Core.Class.Handler.MonadHandler
+      (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+                  Main.$s$fMonadHandlerWidgetT1
+                  (Yesod.Core.Class.Handler.$fMonadHandlerWidgetT_$cliftHandlerT
+                     @ Main.Formulario
+                     @ GHC.Types.IO
+                     Main.$s$fMonadHandlerWidgetT1
+                     Main.$fYesodFormulario26) -}
+ee28a5c148f006b1cc9912633b7793b1
+  $s$fMonadHandlerWidgetT1 ::
+    Control.Monad.Trans.Resource.Internal.MonadResource
+      (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fMonadHandlerWidgetT_$s$fMonadResourceWidgetT -}
+7be26a2074ab983932a9ac647ddd2a55
+  $s$fMonadHandlerWidgetT2 ::
+    Control.Monad.Base.MonadBase
+      GHC.Types.IO
+      (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True) Main.$s$fMonadBasebWidgetT -}
+6579ed3a0ba8035c7a42135cd29469a3
+  $s$fMonadHandlerWidgetT3 ::
+    Control.Monad.IO.Class.MonadIO
+      (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fMonadHandlerWidgetT_$s$fMonadIOWidgetT -}
+a46454ec748fd902ad0fb965175f3a66
+  $s$fMonadHandlerWidgetT4 ::
+    Control.Monad.Catch.MonadThrow
+      (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fMonadHandlerWidgetT_$s$fMonadThrowWidgetT -}
+3cdd1d4eb58e5ef1053e40d83e3b5d7d
+  $s$fMonadHandlerWidgetT_$s$fMonadIOWidgetT ::
+    Control.Monad.IO.Class.MonadIO
+      (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+                  Main.$s$fMonadBasebWidgetT1
+                  (Yesod.Core.Types.$fMonadIOWidgetT_$cliftIO
+                     @ Main.Formulario
+                     @ GHC.Types.IO
+                     Main.$s$fMonadBasebWidgetT1
+                     Control.Monad.IO.Class.$fMonadIOIO) -}
+526b1754867d69de8a1d1971c4b6403f
+  $s$fMonadHandlerWidgetT_$s$fMonadResourceWidgetT ::
+    Control.Monad.Trans.Resource.Internal.MonadResource
+      (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+                  Main.$s$fMonadHandlerWidgetT4
+                  Main.$s$fMonadHandlerWidgetT3
+                  Main.$s$fMonadBasebWidgetT3
+                  Main.$s$fMonadHandlerWidgetT2
+                  (Yesod.Core.Types.$fMonadResourceWidgetT_$cliftResourceT
+                     @ Main.Formulario
+                     @ GHC.Types.IO
+                     Main.$s$fMonadHandlerWidgetT4
+                     Main.$s$fMonadHandlerWidgetT3
+                     Main.$s$fMonadBasebWidgetT3
+                     Main.$s$fMonadHandlerWidgetT2
+                     GHC.Base.$fApplicativeIO
+                     Control.Monad.IO.Class.$fMonadIOIO
+                     Control.Monad.Base.$fMonadBaseIOIO
+                     Control.Monad.Catch.$fMonadThrowIO) -}
+65fb6273645cb660685b1b4d4b741f01
+  $s$fMonadHandlerWidgetT_$s$fMonadThrowWidgetT ::
+    Control.Monad.Catch.MonadThrow
+      (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO)
+                  Main.$s$fMonadBasebWidgetT1
+                  (Yesod.Core.Types.$fMonadThrowWidgetT_$cthrowM
+                     @ Main.Formulario
+                     @ GHC.Types.IO
+                     Main.$s$fMonadBasebWidgetT1
+                     Control.Monad.Catch.$fMonadThrowIO) -}
+5414cf518c5422dc03cef99fd0f32e3b
+  $w$ccleanPath ::
+    [Data.Text.Internal.Text]
+    -> Data.Either.Either
+         [Data.Text.Internal.Text] [Data.Text.Internal.Text]
+  {- Arity: 1, Strictness: <S,U>, Inline: [0],
+     Unfolding: (\ w :: [Data.Text.Internal.Text] ->
+                 let {
+                   corrected :: [Data.Text.Internal.Text]
+                   = GHC.List.filter
+                       @ Data.Text.Internal.Text
+                       Main.$fYesodFormulario16
+                       w
+                 } in
+                 case GHC.Classes.$fEq[]_$c==
+                        @ Data.Text.Internal.Text
+                        Data.Text.$fEqText
+                        corrected
+                        w of wild {
+                   GHC.Types.False
+                   -> Data.Either.Left
+                        @ [Data.Text.Internal.Text]
+                        @ [Data.Text.Internal.Text]
+                        corrected
+                   GHC.Types.True
+                   -> Data.Either.Right
+                        @ [Data.Text.Internal.Text]
+                        @ [Data.Text.Internal.Text]
+                        (GHC.Base.map
+                           @ Data.Text.Internal.Text
+                           @ Data.Text.Internal.Text
+                           Main.$fYesodFormulario14
+                           w) }) -}
+bd300c9997b3f4540bde5c0b289e99b8
+  $w$cfileUpload ::
+    Network.Wai.Internal.RequestBodyLength
+    -> Yesod.Core.Types.FileUpload
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ w :: Network.Wai.Internal.RequestBodyLength ->
+                 case w of wild {
+                   Network.Wai.Internal.ChunkedBody -> Main.$fYesodFormulario5
+                   Network.Wai.Internal.KnownLength size
+                   -> case size of wild1 { GHC.Word.W64# a83 ->
+                      case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.leWord# a83 __word 50000) of wild2 {
+                        GHC.Types.False -> Main.$fYesodFormulario5
+                        GHC.Types.True -> Main.$fYesodFormulario3 } } }) -}
+ce11f8abff759d2990c0f1a32313a817
+  $w$cjoinPath ::
+    Data.Text.Internal.Text
+    -> [Data.Text.Internal.Text]
+    -> [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+    -> Data.ByteString.Builder.Internal.Builder
+  {- Arity: 3, Strictness: <L,1*U(U,U,U)><L,1*U><L,1*U>, Inline: [0],
+     Unfolding: (\ w :: Data.Text.Internal.Text
+                   w1 :: [Data.Text.Internal.Text]
+                   w2 :: [(Data.Text.Internal.Text, Data.Text.Internal.Text)] ->
+                 let {
+                   a83 :: [GHC.Types.Char]
+                   = case w of wild { Data.Text.Internal.Text dt dt1 dt2 ->
+                     let {
+                       a84 :: GHC.Prim.Int# = GHC.Prim.+# dt1 dt2
+                     } in
+                     letrec {
+                       $wunfold :: GHC.Prim.Int# -> [GHC.Types.Char]
+                         {- Arity: 1, Strictness: <L,U>, Inline: [0] -}
+                       = \ ww :: GHC.Prim.Int# ->
+                         case GHC.Prim.tagToEnum#
+                                @ GHC.Types.Bool
+                                (GHC.Prim.>=# ww a84) of wild1 {
+                           GHC.Types.False
+                           -> case GHC.Prim.indexWord16Array# dt ww of r# { DEFAULT ->
+                              case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.geWord# r# __word 55296) of wild2 {
+                                GHC.Types.False
+                                -> GHC.Types.:
+                                     @ GHC.Types.Char
+                                     (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                     ($wunfold (GHC.Prim.+# ww 1))
+                                GHC.Types.True
+                                -> case GHC.Prim.tagToEnum#
+                                          @ GHC.Types.Bool
+                                          (GHC.Prim.leWord# r# __word 56319) of wild3 {
+                                     GHC.Types.False
+                                     -> GHC.Types.:
+                                          @ GHC.Types.Char
+                                          (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                          ($wunfold (GHC.Prim.+# ww 1))
+                                     GHC.Types.True
+                                     -> case GHC.Prim.indexWord16Array#
+                                               dt
+                                               (GHC.Prim.+# ww 1) of r#1 { DEFAULT ->
+                                        GHC.Types.:
+                                          @ GHC.Types.Char
+                                          (GHC.Types.C#
+                                             (GHC.Prim.chr#
+                                                (GHC.Prim.+#
+                                                   (GHC.Prim.+#
+                                                      (GHC.Prim.uncheckedIShiftL#
+                                                         (GHC.Prim.-# (GHC.Prim.word2Int# r#) 55296)
+                                                         10)
+                                                      (GHC.Prim.-# (GHC.Prim.word2Int# r#1) 56320))
+                                                   65536)))
+                                          ($wunfold (GHC.Prim.+# ww 2)) } } } }
+                           GHC.Types.True -> GHC.Types.[] @ GHC.Types.Char }
+                     } in
+                     $wunfold dt1 }
+                 } in
+                 let {
+                   ds1 :: Data.ByteString.Builder.Internal.Builder
+                   = case GHC.Base.map
+                            @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                            @ (Data.ByteString.Internal.ByteString,
+                               GHC.Base.Maybe Data.ByteString.Internal.ByteString)
+                            Main.$fYesodFormulario13
+                            w2 of wild {
+                       []
+                       -> case w1 of wild1 {
+                            []
+                            -> Network.HTTP.Types.URI.encodePathSegments
+                                 Main.$fYesodFormulario12
+                            : ds2 ds3
+                            -> Network.HTTP.Types.URI.encodePathSegments
+                                 (GHC.Base.map
+                                    @ Data.Text.Internal.Text
+                                    @ Data.Text.Internal.Text
+                                    Main.$fYesodFormulario11
+                                    wild1) }
+                       : ipv ipv1
+                       -> let {
+                            ds2 :: Data.ByteString.Builder.Internal.Builder
+                            = case w1 of wild1 {
+                                []
+                                -> Network.HTTP.Types.URI.encodePathSegments
+                                     Main.$fYesodFormulario12
+                                : ds3 ds4
+                                -> Network.HTTP.Types.URI.encodePathSegments
+                                     (GHC.Base.map
+                                        @ Data.Text.Internal.Text
+                                        @ Data.Text.Internal.Text
+                                        Main.$fYesodFormulario11
+                                        wild1) }
+                          } in
+                          let {
+                            ds3 :: Data.ByteString.Builder.Internal.Builder
+                            = case ipv of ww { (,) ww1 ww2 ->
+                              Network.HTTP.Types.URI.$wgo
+                                Network.HTTP.Types.URI.encodePath1
+                                  `cast`
+                                (Sym (Data.ByteString.Builder.Internal.NTCo:Builder[0]))
+                                ww1
+                                ww2 }
+                          } in
+                          let {
+                            ds4 :: Data.ByteString.Builder.Internal.Builder
+                            = Network.HTTP.Types.URI.encodePath_go ipv1
+                          } in
+                          (\ @ r eta :: Data.ByteString.Builder.Internal.BuildStep r ->
+                           ds2 `cast` (Data.ByteString.Builder.Internal.NTCo:Builder[0])
+                             @ r
+                             (ds3 `cast` (Data.ByteString.Builder.Internal.NTCo:Builder[0])
+                                @ r
+                                (ds4 `cast` (Data.ByteString.Builder.Internal.NTCo:Builder[0])
+                                   @ r
+                                   eta)))
+                            `cast`
+                          (Sym (Data.ByteString.Builder.Internal.NTCo:Builder[0])) }
+                 } in
+                 (\ @ r eta :: Data.ByteString.Builder.Internal.BuildStep r ->
+                  let {
+                    w3 :: Data.ByteString.Builder.Internal.BufferRange
+                          -> GHC.Types.IO (Data.ByteString.Builder.Internal.BuildSignal r)
+                    = ds1 `cast` (Data.ByteString.Builder.Internal.NTCo:Builder[0])
+                        @ r
+                        eta
+                  } in
+                  \ w4 :: Data.ByteString.Builder.Internal.BufferRange
+                    w5 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                  case w4 of ww { Data.ByteString.Builder.Internal.BufferRange ww1 ww2 ->
+                  Main.$wa4 @ r a83 w3 ww1 ww2 w5 })
+                   `cast`
+                 (Trans
+                      (forall r.
+                       <Data.ByteString.Builder.Internal.BuildStep r>_R
+                       ->_R <Data.ByteString.Builder.Internal.BufferRange>_R
+                       ->_R Sym (GHC.Types.NTCo:IO[0]
+                                     <Data.ByteString.Builder.Internal.BuildSignal r>_R))
+                      (Sym (Data.ByteString.Builder.Internal.NTCo:Builder[0])))) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $w$cyesodDispatch ::
+    Yesod.Core.Types.YesodRunnerEnv Main.Formulario
+    -> Network.HTTP.Types.Method.Method
+    -> Network.HTTP.Types.Version.HttpVersion
+    -> Data.ByteString.Internal.ByteString
+    -> Data.ByteString.Internal.ByteString
+    -> Network.HTTP.Types.Header.RequestHeaders
+    -> GHC.Types.Bool
+    -> Network.Socket.Types.SockAddr
+    -> [Data.Text.Internal.Text]
+    -> Network.HTTP.Types.URI.Query
+    -> GHC.Types.IO Data.ByteString.Internal.ByteString
+    -> Data.Vault.Lazy.Vault
+    -> Network.Wai.Internal.RequestBodyLength
+    -> GHC.Base.Maybe Data.ByteString.Internal.ByteString
+    -> GHC.Base.Maybe Data.ByteString.Internal.ByteString
+    -> (Network.Wai.Internal.Response
+        -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)
+    -> GHC.Types.IO Network.Wai.Internal.ResponseReceived
+  {- Arity: 15,
+     Strictness: <L,U(U,U,U,U,C(U(U,1*U(U,U,U))))><L,U(U,U,U,U)><L,U><L,U><L,U><L,U><L,U><L,U><S,U><L,U><L,U><L,U><L,U><L,U><L,U>,
+     Inline: [0] -}
+d5f4fae27a3ad563dd26e5606b95ec25
+  $w$sgo5 ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Set.Base.Set Data.Text.Internal.Text
+    -> Data.Set.Base.Set Data.Text.Internal.Text
+  {- Arity: 4, Strictness: <L,U><L,U><L,U><S,1*U>, Inline: [0] -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $wa ::
+    (Yesod.Routes.Class.Route Main.Formulario
+     -> Text.ParserCombinators.ReadP.P b1)
+    -> (# GHC.Base.String -> Text.ParserCombinators.ReadP.P b1 #)
+  {- Arity: 1, Strictness: <L,1*C1(U)>, Inline: [0],
+     Unfolding: (\ @ b1
+                   w :: Yesod.Routes.Class.Route Main.Formulario
+                        -> Text.ParserCombinators.ReadP.P b1 ->
+                 let {
+                   lvl79 :: Text.ParserCombinators.ReadP.P b1
+                   = let {
+                       lvl80 :: Text.ParserCombinators.ReadP.P b1
+                       = w Main.HomeR `cast` (Sub (Sym (Main.TFCo:R:RouteFormulario[0])))
+                     } in
+                     Text.Read.Lex.expect2
+                       @ b1
+                       (\ a98 :: Text.Read.Lex.Lexeme ->
+                        case a98 of wild {
+                          DEFAULT -> Text.ParserCombinators.ReadP.Fail @ b1
+                          Text.Read.Lex.Ident a83
+                          -> case GHC.Base.eqString a83 Main.$fReadRoute4 of wild1 {
+                               GHC.Types.False -> Text.ParserCombinators.ReadP.Fail @ b1
+                               GHC.Types.True -> lvl80 } })
+                 } in
+                 let {
+                   k :: () -> Text.ParserCombinators.ReadP.P b1
+                     {- Arity: 1, Strictness: <L,A>, Inline: INLINE[0],
+                        Unfolding: InlineRule (1, True, True) (\ w2 :: () -> lvl79) -}
+                   = \ w2 :: () -> lvl79
+                 } in
+                 (# \ a98 :: GHC.Base.String ->
+                    (Text.ParserCombinators.ReadP.skipSpaces_skip a98)
+                      `cast`
+                    (Text.ParserCombinators.ReadP.NTCo:ReadP[0] <()>_R)
+                      @ b1
+                      k #)) -}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  $wa1 ::
+    Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO res
+    -> Yesod.Core.Types.YesodRequest
+    -> Yesod.Core.Types.RunHandlerEnv Main.Formulario
+    -> GHC.Prim.MutVar# GHC.Prim.RealWorld Yesod.Core.Types.GHState
+    -> (Yesod.Routes.Class.Route Main.Formulario
+        -> Yesod.Core.Types.MonadRoute GHC.Types.IO)
+    -> GHC.Prim.MutVar#
+         GHC.Prim.RealWorld Control.Monad.Trans.Resource.Internal.ReleaseMap
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, res #)
+  {- Arity: 7,
+     Strictness: <L,1*C1(C1(U(U,U)))><S,U><S,U><L,U><S,U><L,U><L,U>,
+     Inline: [0] -}
+eb513ba02884d0f16dd5729045c70199
+  $wa2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Base.Maybe Yesod.Core.Types.SessionBackend #)
+  {- Arity: 1, Strictness: <L,U>, Inline: [0],
+     Unfolding: (\ w :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case Web.ClientSession.getDefaultKey2
+                        Web.ClientSession.defaultKeyFile
+                        w of ds1 { (#,#) ipv ipv1 ->
+                 case Yesod.Core.Internal.Session.clientSessionDateCacher1
+                        Main.$fYesodFormulario7
+                          `cast`
+                        (Trans
+                             (Sym (Data.Fixed.NTCo:Fixed[0] <Data.Fixed.E12>_P))
+                             (Sym (Data.Time.Clock.UTC.NTCo:NominalDiffTime[0])))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild { (,) getCachedDate _closeDateCacher ->
+                 (# ipv2,
+                    GHC.Base.Just
+                      @ Yesod.Core.Types.SessionBackend
+                      (Yesod.Core.Class.Yesod.defaultClientSessionBackend3
+                         ipv1
+                         getCachedDate
+                         Yesod.Core.Class.Yesod.defaultClientSessionBackend2)
+                        `cast`
+                      (Trans
+                           (<Network.Wai.Internal.Request>_R
+                            ->_R Sym (GHC.Types.NTCo:IO[0]
+                                          <(Data.Map.Base.Map
+                                              Data.Text.Internal.Text
+                                              Data.ByteString.Internal.ByteString,
+                                            Yesod.Core.Types.SessionMap
+                                            -> GHC.Types.IO [Yesod.Core.Types.Header])>_R))
+                           (Sym (Yesod.Core.Types.NTCo:SessionBackend[0]))) #) } } }) -}
+039f5defb3a2b824b1e509e56888c8ed
+  $wa3 ::
+    Yesod.Core.Types.Logger
+    -> Language.Haskell.TH.Syntax.Loc
+    -> Control.Monad.Logger.LogSource
+    -> Control.Monad.Logger.LogLevel
+    -> System.Log.FastLogger.LogStr.LogStr
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 6,
+     Strictness: <L,U(U(A,1*U(U),1*U(U(U),U(U),A,U),1*C1(U(U,U))),U)><L,1*U(1*U,U,1*U,1*U(1*U(U),1*U(U)),A)><L,1*U(U,U,U)><S,U><L,1*U(U,C(U))><L,U>,
+     Inline: [0],
+     Unfolding: (\ w :: Yesod.Core.Types.Logger
+                   w1 :: Language.Haskell.TH.Syntax.Loc
+                   w2 :: Control.Monad.Logger.LogSource
+                   w3 :: Control.Monad.Logger.LogLevel
+                   w4 :: System.Log.FastLogger.LogStr.LogStr
+                   w5 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 let {
+                   $j :: GHC.Prim.Void#
+                         -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+                     {- Arity: 1, Strictness: <L,A> -}
+                   = \ w6 :: GHC.Prim.Void#[OneShot] ->
+                     case Yesod.Core.Class.Yesod.defaultMessageLoggerSource2
+                            (Yesod.Core.Types.loggerDate w)
+                            w1
+                            w2
+                            w3
+                            w4
+                            w5 of ds2 { (#,#) ipv2 ipv3 ->
+                     Yesod.Core.Types.loggerPutStr1 w ipv3 ipv2 }
+                 } in
+                 case w3 of wild {
+                   Control.Monad.Logger.LevelDebug -> (# w5, GHC.Tuple.() #)
+                   Control.Monad.Logger.LevelInfo -> $j GHC.Prim.void#
+                   Control.Monad.Logger.LevelWarn -> $j GHC.Prim.void#
+                   Control.Monad.Logger.LevelError -> $j GHC.Prim.void#
+                   Control.Monad.Logger.LevelOther a123 -> $j GHC.Prim.void# }) -}
+38c80e1f604dc30ac69c61c2118bef50
+  $wa4 ::
+    [GHC.Types.Char]
+    -> (Data.ByteString.Builder.Internal.BufferRange
+        -> GHC.Types.IO (Data.ByteString.Builder.Internal.BuildSignal r))
+    -> GHC.Prim.Addr#
+    -> GHC.Prim.Addr#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.ByteString.Builder.Internal.BuildSignal r #)
+  {- Arity: 5, HasNoCafRefs,
+     Strictness: <S,1*U><L,C(C1(U(U,U)))><L,U><L,U><L,U>, Inline: [0] -}
+877d6c3bb2cf0920c8da589562250bc2
+  type Form a =
+    Text.Blaze.Html.Html
+    -> Yesod.Form.Types.MForm
+         Main.Handler (Yesod.Form.Types.FormResult a, Main.Widget)
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  data Formulario = Formulario
+    Promotable
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  type Handler =
+    Yesod.Core.Types.HandlerT Main.Formulario GHC.Types.IO
+124284c04cbb8f8659d0c19725bdf11a
+  data Mensagem = Mensagem {conteudo :: Data.Text.Internal.Text}
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  data instance Yesod.Routes.Class.Route Main.Formulario = HomeR
+    RecFlag: Recursive
+ec89b163c7286f2fc2d8e8ddb8eb4bfe
+  axiom TFCo:R:RouteFormulario::
+      Yesod.Routes.Class.Route Main.Formulario = Main.R:RouteFormulario
+07f78dcbb8301786013f273808bce5f8
+  type Widget =
+    Yesod.Core.Types.WidgetT Main.Formulario GHC.Types.IO ()
+cbc0be53d2dffda7f5382138d2cc5af9
+  conteudo :: Main.Mensagem -> Data.Text.Internal.Text
+  RecSel Main.Mensagem
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(1*U(U,U,U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Main.Mensagem ->
+                 case ds of wild { Main.Mensagem ds1 -> ds1 }) -}
+8d0840f55fa5ffb6be5bbe645f31fcd6
+  main :: GHC.Types.IO ()
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+797b5703c884a64bd382ca1c5a232633
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (Yesod.Core.Dispatch.warp1
+                   @ Main.Formulario
+                   Main.$fYesodDispatchFormulario
+                   Main.main2
+                   Main.Formulario) -}
+c570853c265a1948cbf6d47b1d90bd6a
+  main2 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 3000) -}
+e7af1061ca181d6a81deb857bb5126ab
+  main3 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+instance GHC.Classes.Eq [Yesod.Routes.Class.Route] = Main.$fEqRoute
+instance Yesod.Routes.Class.ParseRoute [Main.Formulario]
+  = Main.$fParseRouteFormulario
+instance GHC.Read.Read [Yesod.Routes.Class.Route]
+  = Main.$fReadRoute
+instance Text.Shakespeare.I18N.RenderMessage [Main.Formulario,
+                                              Yesod.Form.Types.FormMessage]
+  = Main.$fRenderMessageFormularioFormMessage
+instance Yesod.Routes.Class.RenderRoute [Main.Formulario]
+  = Main.$fRenderRouteFormulario
+instance Yesod.Routes.Class.RouteAttrs [Main.Formulario]
+  = Main.$fRouteAttrsFormulario
+instance GHC.Show.Show [Yesod.Routes.Class.Route]
+  = Main.$fShowRoute
+instance Yesod.Core.Class.Dispatch.YesodDispatch [Main.Formulario]
+  = Main.$fYesodDispatchFormulario
+instance Yesod.Core.Class.Yesod.Yesod [Main.Formulario]
+  = Main.$fYesodFormulario
+family instance Yesod.Routes.Class.Route [Main.Formulario]
+  = Main.TFCo:R:RouteFormulario
+"SPEC/Main $dmapproot @ Formulario" [ALWAYS] forall $dYesod :: Yesod.Core.Class.Yesod.Yesod
+                                                                 Main.Formulario
+  Yesod.Core.Class.Yesod.$dmapproot @ Main.Formulario $dYesod
+  = Main.$fYesodFormulario_$s$dmapproot
+"SPEC/Main $dmauthRoute @ Formulario" [ALWAYS] forall $dYesod :: Yesod.Core.Class.Yesod.Yesod
+                                                                   Main.Formulario
+  Yesod.Core.Class.Yesod.$dmauthRoute @ Main.Formulario $dYesod
+  = Main.$fYesodFormulario_$s$dmauthRoute
+"SPEC/Main $dmjsLoader @ Formulario" [ALWAYS] forall $dYesod :: Yesod.Core.Class.Yesod.Yesod
+                                                                  Main.Formulario
+  Yesod.Core.Class.Yesod.$dmjsLoader @ Main.Formulario $dYesod
+  = Main.$fYesodFormulario_$s$dmjsLoader
+"SPEC/Main $dmmaximumContentLength @ Formulario" [ALWAYS] forall $dYesod :: Yesod.Core.Class.Yesod.Yesod
+                                                                              Main.Formulario
+  Yesod.Core.Class.Yesod.$dmmaximumContentLength @ Main.Formulario
+                                                 $dYesod
+  = Main.$fYesodFormulario_$s$dmmaximumContentLength
+"SPEC/Main $dmreadsPrec @ (Route Formulario)" [ALWAYS] forall $dRead :: GHC.Read.Read
+                                                                          (Yesod.Routes.Class.Route
+                                                                             Main.Formulario)
+  GHC.Read.$dmreadsPrec @ (Yesod.Routes.Class.Route Main.Formulario)
+                        $dRead
+  = Main.$fReadRoute_$s$dmreadsPrec
+"SPEC/Main $dmshouldLog @ Formulario" [ALWAYS] forall $dYesod :: Yesod.Core.Class.Yesod.Yesod
+                                                                   Main.Formulario
+  Yesod.Core.Class.Yesod.$dmshouldLog @ Main.Formulario $dYesod
+  = Main.$fYesodFormulario_$s$dmshouldLog
+"SPEC/Main $dmurlRenderOverride @ Formulario" [ALWAYS] forall $dYesod :: Yesod.Core.Class.Yesod.Yesod
+                                                                           Main.Formulario
+  Yesod.Core.Class.Yesod.$dmurlRenderOverride @ Main.Formulario
+                                              $dYesod
+  = Main.$fYesodFormulario_$s$dmurlRenderOverride
+"SPEC/Main $fApplicativeHandlerT @ Formulario @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                   (Yesod.Core.Types.HandlerT
+                                                                                      Main.Formulario
+                                                                                      GHC.Types.IO)
+                                                                    $dMonad :: GHC.Base.Monad
+                                                                                 GHC.Types.IO
+  Yesod.Core.Types.$fApplicativeHandlerT @ Main.Formulario
+                                         @ GHC.Types.IO
+                                         $dFunctor
+                                         $dMonad
+  = Main.$fYesodFormulario_$s$fApplicativeHandlerT
+"SPEC/Main $fApplicativeHandlerT_$cpure @ Formulario @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                          (Yesod.Core.Types.HandlerT
+                                                                                             Main.Formulario
+                                                                                             GHC.Types.IO)
+                                                                           $dMonad :: GHC.Base.Monad
+                                                                                        GHC.Types.IO
+  Yesod.Core.Types.$fApplicativeHandlerT_$cpure @ Main.Formulario
+                                                @ GHC.Types.IO
+                                                $dFunctor
+                                                $dMonad
+  = Main.$fYesodFormulario_$s$fApplicativeHandlerT_$cpure
+"SPEC/Main $fApplicativeWidgetT @ Formulario @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                  (Yesod.Core.Types.WidgetT
+                                                                                     Main.Formulario
+                                                                                     GHC.Types.IO)
+                                                                   $dMonad :: GHC.Base.Monad
+                                                                                GHC.Types.IO
+  Yesod.Core.Types.$fApplicativeWidgetT @ Main.Formulario
+                                        @ GHC.Types.IO
+                                        $dFunctor
+                                        $dMonad
+  = Main.$s$fApplicativeWidgetT
+"SPEC/Main $fApplicativeWidgetT_$c*> @ Formulario @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                       (Yesod.Core.Types.WidgetT
+                                                                                          Main.Formulario
+                                                                                          GHC.Types.IO)
+                                                                        $dMonad :: GHC.Base.Monad
+                                                                                     GHC.Types.IO
+  Yesod.Core.Types.$fApplicativeWidgetT_$c*> @ Main.Formulario
+                                             @ GHC.Types.IO
+                                             $dFunctor
+                                             $dMonad
+  = Main.$s$fApplicativeWidgetT_$s$fApplicativeWidgetT_$c*>
+"SPEC/Main $fApplicativeWidgetT_$c<* @ Formulario @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                       (Yesod.Core.Types.WidgetT
+                                                                                          Main.Formulario
+                                                                                          GHC.Types.IO)
+                                                                        $dMonad :: GHC.Base.Monad
+                                                                                     GHC.Types.IO
+  Yesod.Core.Types.$fApplicativeWidgetT_$c<* @ Main.Formulario
+                                             @ GHC.Types.IO
+                                             $dFunctor
+                                             $dMonad
+  = Main.$s$fApplicativeWidgetT_$s$fApplicativeWidgetT_$c<*
+"SPEC/Main $fApplicativeWidgetT_$cpure @ Formulario @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                         (Yesod.Core.Types.WidgetT
+                                                                                            Main.Formulario
+                                                                                            GHC.Types.IO)
+                                                                          $dMonad :: GHC.Base.Monad
+                                                                                       GHC.Types.IO
+  Yesod.Core.Types.$fApplicativeWidgetT_$cpure @ Main.Formulario
+                                               @ GHC.Types.IO
+                                               $dFunctor
+                                               $dMonad
+  = Main.$s$fApplicativeWidgetT_$s$fApplicativeWidgetT_$cpure
+"SPEC/Main $fMonadBasebHandlerT @ IO @ Formulario @ IO" [ALWAYS] forall $dApplicative :: GHC.Base.Applicative
+                                                                                           GHC.Types.IO
+                                                                        $dApplicative1 :: GHC.Base.Applicative
+                                                                                            (Yesod.Core.Types.HandlerT
+                                                                                               Main.Formulario
+                                                                                               GHC.Types.IO)
+                                                                        $dMonad :: GHC.Base.Monad
+                                                                                     GHC.Types.IO
+                                                                        $dMonad1 :: GHC.Base.Monad
+                                                                                      (Yesod.Core.Types.HandlerT
+                                                                                         Main.Formulario
+                                                                                         GHC.Types.IO)
+                                                                        $dMonadBase :: Control.Monad.Base.MonadBase
+                                                                                         GHC.Types.IO
+                                                                                         GHC.Types.IO
+  Yesod.Core.Types.$fMonadBasebHandlerT @ GHC.Types.IO
+                                        @ Main.Formulario
+                                        @ GHC.Types.IO
+                                        $dApplicative
+                                        $dApplicative1
+                                        $dMonad
+                                        $dMonad1
+                                        $dMonadBase
+  = Main.$fYesodFormulario_$s$fMonadBasebHandlerT
+"SPEC/Main $fMonadBasebHandlerT_$cliftBase @ IO @ Formulario @ IO" [ALWAYS] forall $dApplicative :: GHC.Base.Applicative
+                                                                                                      GHC.Types.IO
+                                                                                   $dApplicative1 :: GHC.Base.Applicative
+                                                                                                       (Yesod.Core.Types.HandlerT
+                                                                                                          Main.Formulario
+                                                                                                          GHC.Types.IO)
+                                                                                   $dMonad :: GHC.Base.Monad
+                                                                                                GHC.Types.IO
+                                                                                   $dMonad1 :: GHC.Base.Monad
+                                                                                                 (Yesod.Core.Types.HandlerT
+                                                                                                    Main.Formulario
+                                                                                                    GHC.Types.IO)
+                                                                                   $dMonadBase :: Control.Monad.Base.MonadBase
+                                                                                                    GHC.Types.IO
+                                                                                                    GHC.Types.IO
+  Yesod.Core.Types.$fMonadBasebHandlerT_$cliftBase @ GHC.Types.IO
+                                                   @ Main.Formulario
+                                                   @ GHC.Types.IO
+                                                   $dApplicative
+                                                   $dApplicative1
+                                                   $dMonad
+                                                   $dMonad1
+                                                   $dMonadBase
+  = Main.$fYesodFormulario_$s$fMonadBasebHandlerT_$cliftBase
+"SPEC/Main $fMonadBasebWidgetT @ IO @ Formulario @ IO" [ALWAYS] forall $dApplicative :: GHC.Base.Applicative
+                                                                                          GHC.Types.IO
+                                                                       $dApplicative1 :: GHC.Base.Applicative
+                                                                                           (Yesod.Core.Types.WidgetT
+                                                                                              Main.Formulario
+                                                                                              GHC.Types.IO)
+                                                                       $dMonad :: GHC.Base.Monad
+                                                                                    GHC.Types.IO
+                                                                       $dMonad1 :: GHC.Base.Monad
+                                                                                     (Yesod.Core.Types.WidgetT
+                                                                                        Main.Formulario
+                                                                                        GHC.Types.IO)
+                                                                       $dMonadBase :: Control.Monad.Base.MonadBase
+                                                                                        GHC.Types.IO
+                                                                                        GHC.Types.IO
+  Yesod.Core.Types.$fMonadBasebWidgetT @ GHC.Types.IO
+                                       @ Main.Formulario
+                                       @ GHC.Types.IO
+                                       $dApplicative
+                                       $dApplicative1
+                                       $dMonad
+                                       $dMonad1
+                                       $dMonadBase
+  = Main.$s$fMonadBasebWidgetT
+"SPEC/Main $fMonadHandlerHandlerT @ Formulario @ IO" [ALWAYS] forall $dMonadResource :: Control.Monad.Trans.Resource.Internal.MonadResource
+                                                                                          (Yesod.Core.Types.HandlerT
+                                                                                             Main.Formulario
+                                                                                             GHC.Types.IO)
+                                                                     tup :: Control.Monad.Trans.Resource.MonadResourceBase
+                                                                              GHC.Types.IO
+  Yesod.Core.Class.Handler.$fMonadHandlerHandlerT @ Main.Formulario
+                                                  @ GHC.Types.IO
+                                                  $dMonadResource
+                                                  tup
+  = Main.$fYesodFormulario_$s$fMonadHandlerHandlerT
+"SPEC/Main $fMonadHandlerT @ Formulario @ IO" [ALWAYS] forall $dApplicative :: GHC.Base.Applicative
+                                                                                 (Yesod.Core.Types.HandlerT
+                                                                                    Main.Formulario
+                                                                                    GHC.Types.IO)
+                                                              $dMonad :: GHC.Base.Monad GHC.Types.IO
+  Yesod.Core.Types.$fMonadHandlerT @ Main.Formulario
+                                   @ GHC.Types.IO
+                                   $dApplicative
+                                   $dMonad
+  = Main.$fYesodFormulario_$s$fMonadHandlerT
+"SPEC/Main $fMonadHandlerWidgetT @ Formulario @ IO" [ALWAYS] forall $dMonadResource :: Control.Monad.Trans.Resource.Internal.MonadResource
+                                                                                         (Yesod.Core.Types.WidgetT
+                                                                                            Main.Formulario
+                                                                                            GHC.Types.IO)
+                                                                    tup :: Control.Monad.Trans.Resource.MonadResourceBase
+                                                                             GHC.Types.IO
+  Yesod.Core.Class.Handler.$fMonadHandlerWidgetT @ Main.Formulario
+                                                 @ GHC.Types.IO
+                                                 $dMonadResource
+                                                 tup
+  = Main.$s$fMonadHandlerWidgetT
+"SPEC/Main $fMonadIOHandlerT @ Formulario @ IO" [ALWAYS] forall $dMonad :: GHC.Base.Monad
+                                                                             (Yesod.Core.Types.HandlerT
+                                                                                Main.Formulario
+                                                                                GHC.Types.IO)
+                                                                $dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                               GHC.Types.IO
+  Yesod.Core.Types.$fMonadIOHandlerT @ Main.Formulario
+                                     @ GHC.Types.IO
+                                     $dMonad
+                                     $dMonadIO
+  = Main.$fYesodFormulario_$s$fMonadIOHandlerT
+"SPEC/Main $fMonadIOWidgetT @ Formulario @ IO" [ALWAYS] forall $dMonad :: GHC.Base.Monad
+                                                                            (Yesod.Core.Types.WidgetT
+                                                                               Main.Formulario
+                                                                               GHC.Types.IO)
+                                                               $dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                              GHC.Types.IO
+  Yesod.Core.Types.$fMonadIOWidgetT @ Main.Formulario
+                                    @ GHC.Types.IO
+                                    $dMonad
+                                    $dMonadIO
+  = Main.$s$fMonadHandlerWidgetT_$s$fMonadIOWidgetT
+"SPEC/Main $fMonadResourceHandlerT @ Formulario @ IO" [ALWAYS] forall $dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                                        (Yesod.Core.Types.HandlerT
+                                                                                           Main.Formulario
+                                                                                           GHC.Types.IO)
+                                                                      $dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                                     (Yesod.Core.Types.HandlerT
+                                                                                        Main.Formulario
+                                                                                        GHC.Types.IO)
+                                                                      $dApplicative :: GHC.Base.Applicative
+                                                                                         (Yesod.Core.Types.HandlerT
+                                                                                            Main.Formulario
+                                                                                            GHC.Types.IO)
+                                                                      $dMonadBase :: Control.Monad.Base.MonadBase
+                                                                                       GHC.Types.IO
+                                                                                       (Yesod.Core.Types.HandlerT
+                                                                                          Main.Formulario
+                                                                                          GHC.Types.IO)
+                                                                      $dMonadIO1 :: Control.Monad.IO.Class.MonadIO
+                                                                                      GHC.Types.IO
+                                                                      $dMonadBase1 :: Control.Monad.Base.MonadBase
+                                                                                        GHC.Types.IO
+                                                                                        GHC.Types.IO
+                                                                      $dMonadThrow1 :: Control.Monad.Catch.MonadThrow
+                                                                                         GHC.Types.IO
+  Yesod.Core.Types.$fMonadResourceHandlerT @ Main.Formulario
+                                           @ GHC.Types.IO
+                                           $dMonadThrow
+                                           $dMonadIO
+                                           $dApplicative
+                                           $dMonadBase
+                                           $dMonadIO1
+                                           $dMonadBase1
+                                           $dMonadThrow1
+  = Main.$fYesodFormulario_$s$fMonadResourceHandlerT
+"SPEC/Main $fMonadResourceWidgetT @ Formulario @ IO" [ALWAYS] forall $dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                                       (Yesod.Core.Types.WidgetT
+                                                                                          Main.Formulario
+                                                                                          GHC.Types.IO)
+                                                                     $dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                                    (Yesod.Core.Types.WidgetT
+                                                                                       Main.Formulario
+                                                                                       GHC.Types.IO)
+                                                                     $dApplicative :: GHC.Base.Applicative
+                                                                                        (Yesod.Core.Types.WidgetT
+                                                                                           Main.Formulario
+                                                                                           GHC.Types.IO)
+                                                                     $dMonadBase :: Control.Monad.Base.MonadBase
+                                                                                      GHC.Types.IO
+                                                                                      (Yesod.Core.Types.WidgetT
+                                                                                         Main.Formulario
+                                                                                         GHC.Types.IO)
+                                                                     $dApplicative1 :: GHC.Base.Applicative
+                                                                                         GHC.Types.IO
+                                                                     $dMonadIO1 :: Control.Monad.IO.Class.MonadIO
+                                                                                     GHC.Types.IO
+                                                                     $dMonadBase1 :: Control.Monad.Base.MonadBase
+                                                                                       GHC.Types.IO
+                                                                                       GHC.Types.IO
+                                                                     $dMonadThrow1 :: Control.Monad.Catch.MonadThrow
+                                                                                        GHC.Types.IO
+  Yesod.Core.Types.$fMonadResourceWidgetT @ Main.Formulario
+                                          @ GHC.Types.IO
+                                          $dMonadThrow
+                                          $dMonadIO
+                                          $dApplicative
+                                          $dMonadBase
+                                          $dApplicative1
+                                          $dMonadIO1
+                                          $dMonadBase1
+                                          $dMonadThrow1
+  = Main.$s$fMonadHandlerWidgetT_$s$fMonadResourceWidgetT
+"SPEC/Main $fMonadThrowHandlerT @ Formulario @ IO" [ALWAYS] forall $dMonad :: GHC.Base.Monad
+                                                                                (Yesod.Core.Types.HandlerT
+                                                                                   Main.Formulario
+                                                                                   GHC.Types.IO)
+                                                                   $dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                                     GHC.Types.IO
+  Yesod.Core.Types.$fMonadThrowHandlerT @ Main.Formulario
+                                        @ GHC.Types.IO
+                                        $dMonad
+                                        $dMonadThrow
+  = Main.$fYesodFormulario_$s$fMonadThrowHandlerT
+"SPEC/Main $fMonadThrowHandlerT_$cthrowM @ Formulario @ IO" [ALWAYS] forall $dMonad :: GHC.Base.Monad
+                                                                                         (Yesod.Core.Types.HandlerT
+                                                                                            Main.Formulario
+                                                                                            GHC.Types.IO)
+                                                                            $dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                                              GHC.Types.IO
+  Yesod.Core.Types.$fMonadThrowHandlerT_$cthrowM @ Main.Formulario
+                                                 @ GHC.Types.IO
+                                                 $dMonad
+                                                 $dMonadThrow
+  = Main.$fYesodFormulario_$s$fMonadThrowHandlerT_$cthrowM
+"SPEC/Main $fMonadThrowWidgetT @ Formulario @ IO" [ALWAYS] forall $dMonad :: GHC.Base.Monad
+                                                                               (Yesod.Core.Types.WidgetT
+                                                                                  Main.Formulario
+                                                                                  GHC.Types.IO)
+                                                                  $dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                                    GHC.Types.IO
+  Yesod.Core.Types.$fMonadThrowWidgetT @ Main.Formulario
+                                       @ GHC.Types.IO
+                                       $dMonad
+                                       $dMonadThrow
+  = Main.$s$fMonadHandlerWidgetT_$s$fMonadThrowWidgetT
+"SPEC/Main $fMonadWidgetT @ Formulario @ IO" [ALWAYS] forall $dApplicative :: GHC.Base.Applicative
+                                                                                (Yesod.Core.Types.WidgetT
+                                                                                   Main.Formulario
+                                                                                   GHC.Types.IO)
+                                                             $dMonad :: GHC.Base.Monad GHC.Types.IO
+  Yesod.Core.Types.$fMonadWidgetT @ Main.Formulario
+                                  @ GHC.Types.IO
+                                  $dApplicative
+                                  $dMonad
+  = Main.$s$fMonadBasebWidgetT_$s$fMonadWidgetT
+"SPEC/Main fromList @ Text" [ALWAYS] forall $dOrd :: GHC.Classes.Ord
+                                                       Data.Text.Internal.Text
+  Data.Set.Base.fromList @ Data.Text.Internal.Text $dOrd
+  = Main.$fRouteAttrsFormulario_$sfromList
+"SPEC/Main fromString @ (FieldSettings Formulario)" [ALWAYS] forall tpl :: Data.String.IsString
+                                                                             (Yesod.Form.Types.FieldSettings
+                                                                                Main.Formulario)
+  Data.String.fromString @ (Yesod.Form.Types.FieldSettings
+                              Main.Formulario)
+                         tpl
+  = Yesod.Form.Types.$fIsStringFieldSettings_$cfromString
+      @ Main.Formulario
+"SPEC/Main readListDefault @ (Route Formulario)" [ALWAYS] forall $dRead :: GHC.Read.Read
+                                                                             (Yesod.Routes.Class.Route
+                                                                                Main.Formulario)
+  GHC.Read.readListDefault @ (Yesod.Routes.Class.Route
+                                Main.Formulario)
+                           $dRead
+  = Main.$fReadRoute_$sreadListDefault
+"SPEC/Main toWidget @ Formulario @ Markup" [ALWAYS] forall tpl :: Yesod.Core.Widget.ToWidget
+                                                                    Main.Formulario
+                                                                    Text.Blaze.Internal.Markup
+  Yesod.Core.Widget.toWidget @ Main.Formulario
+                             @ (Text.Blaze.Internal.MarkupM ())
+                             tpl
+  = Yesod.Core.Widget.$fToWidgetBodysiteMarkupM_$ctoWidget
+      @ Main.Formulario
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

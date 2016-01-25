@@ -1,0 +1,11 @@
+@corDoTexto : #FF0;
+
+#content{
+    h2{
+        text-align: center;
+        color: #{ corDoTexto }
+    }
+    > ::first-letter {
+        font-weight: 800;
+    }
+}

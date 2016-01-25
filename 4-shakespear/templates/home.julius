@@ -1,0 +1,12 @@
+onload = function(){
+    var footer = document.querySelector("footer > i ");
+    setInterval(function(){ 
+            var x = (new Date).getTime() % 2;
+            var face  = ";)";
+            if( x )
+                face = ":)";
+
+            footer.innerText= face; 
+
+        }, 199)
+}
