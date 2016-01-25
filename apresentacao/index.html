@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Yesod </h1>
+					<h3>Web Framework</h3>
+					<p>
+						<small>Created by <a href="http://hakim.se">Eric Andrade</a> / <a href="http://twitter.com/ericshortcut">@ericshortcut</a> /
+						<a href="http://romefeller.io">romefeller.io</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Agenda</h2>
+					<ul>
+						<li>História</li>
+						<li>Por que o Yesod?</li>
+						<li>
+							Ola Mundo
+							<ul>
+								<li>(Routers & Handlers)</li>
+								<li>GET / POST</li>
+							</ul>
+						</li>
+						<li>Eco (Trabalhando com URL)</li>
+						<li>Formulário</li>
+						<li>
+							Shakespearean Templates
+							<ul>
+								<li>Hamlet</li>
+								<li>Cassius</li>
+								<li>Lucius</li>
+								<li>Julius</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>História</h2>
+						<p>Criado por - Michael Snoyman</p>
+						<img src="img/snoyman.jpg" alt="Foto de Snoyman">
+					</section>
+					<section>
+						<h2>Contribuidores</h2>
+						<img src="img/contributors.png" alt="">
+					</section>
+				</section>
+
+				<section>
+					<h2>Por Que O Yesod?</h2>
+					<ul>
+						<li>Turn runtime bugs into compile-time errors
+						    <ul>
+						        <li>Evita ataques XSS.</li>
+						    </ul>
+						</li>
+						 
+						<li>Asynchronous made easy
+						    <ul>
+						        <li>Runtime do Haskell é assync.</li>
+						    </ul>
+						</li>
+						    
+						<li>Scalable and Performant
+						    <ul>
+						        <li>write simple, high-level code, and gives you good performance ...</li>
+						    </ul>
+						</li>
+						    
+						<li>Light-weight syntax
+						    <ul>
+						        <li>Boilerplate, routing, database ... DSLs são checadas em tempo de compilação.</li>
+						    </ul>
+						</li>
+					</ul>
+	
+				</section>
+
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Ola Mundo
+							``` olamundo.cabal ```
+							```
+							name:               olamundo
+							version:            0.0.0
+							cabal-version:      >= 1.8
+							build-type:         Simple
+							extra-source-files: routes
+	
+							executable          olamundo
+							  main-is:          olamundo.hs
+	
+							  ghc-options:      -Wall -fwarn-tabs -O2
+	
+							  build-depends:  base
+							                , yesod-core
+	
+							  ghc-options: -ddump-splices
+							```
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Ola Mundo
+							``` olamundo.hs ```
+							```
+							{-# LANGUAGE OverloadedStrings     #-}
+							{-# LANGUAGE QuasiQuotes           #-}
+							{-# LANGUAGE TemplateHaskell       #-}
+							{-# LANGUAGE TypeFamilies          #-}
+
+							import           Yesod
+
+							data OlaMundo = OlaMundo
+
+							mkYesod "OlaMundo" [parseRoutes|
+							/ HomeR GET
+							|]
+
+							instance Yesod OlaMundo
+
+							getHomeR :: Handler Html
+							getHomeR = defaultLayout $ do
+							    setTitle "Bem vindo ao Yesod!"
+							    [whamlet|
+							        <h1>Olá Mundo!
+							        <p> Lorem ipsum dolor sit amet, 
+							        	consectetur adipisicing elit.
+							    |]
+
+							main :: IO ()
+							main = warp 3000 OlaMundo
+
+							```
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Comandos do Stack
+							``` 
+								stack init 
+							```
+							``` 
+								stack build 
+							```
+							``` 
+								stack exec <nome-do-projeto> 
+							```
+						</script>
+					</section>
+					
+
+				
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Eco
+							``` eco.cabal ```
+							```
+							name:               eco
+							version:            0.0.0
+							cabal-version:      >= 1.8
+							build-type:         Simple
+							extra-source-files: routes
+
+							executable          eco
+							  main-is:          eco.hs
+
+							  ghc-options:      -Wall -fwarn-tabs -O2
+
+							  build-depends:  base
+							                , yesod
+							                , yesod-core
+							                , text
+
+							  ghc-options: -ddump-splices
+
+
+							```
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Eco
+							``` eco.hs ```
+							``` 
+								{-# LANGUAGE OverloadedStrings     #-}
+								{-# LANGUAGE QuasiQuotes           #-}
+								{-# LANGUAGE TemplateHaskell       #-}
+								{-# LANGUAGE TypeFamilies          #-}
+								{-# LANGUAGE ViewPatterns          #-}
+
+								import Yesod
+								import Data.Text
+
+								data Eco = Eco
+								data Mensagem = Mensagem Text deriving Show
+
+								mkYesod "Eco" [parseRoutes|
+								/                   HomeR             GET
+								/mensagem/#Text     MensagemR         GET
+								!/mensagem          MensagemVazia     GET
+
+								|]
+
+								instance Yesod Eco where
+								    errorHandler NotFound =  mensagemDeErro "Página não encontrada"
+								    errorHandler other = defaultErrorHandler other
+
+								mensagemDeErro :: Text -> HandlerT Eco IO TypedContent
+								mensagemDeErro x = fmap toTypedContent $ defaultLayout $ toWidget $ 
+								                [hamlet| Erro --> #{x} |]
+
+								getHomeR :: Handler Html
+								getHomeR = defaultLayout [whamlet|
+								    <h1>Olá Mundo!
+								    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								    |]
+
+
+								getMensagemR :: Text -> Handler Html
+								getMensagemR msg = montarMensagem msg
+
+								getMensagemVazia :: Handler Html
+								getMensagemVazia = getMensagemR empty
+
+								--- Helper
+								montarMensagem :: Text -> Handler Html
+								montarMensagem "" = montarMensagem "woops"
+								montarMensagem t = defaultLayout $ toWidget $ [hamlet| <p> Mensagem: #{ t } |]
+
+
+								main :: IO ()
+								main = warp 3000 Eco
+							```
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Formulario
+							``` formulario.cabal ```
+							```
+							name:               formulario
+							version:            0.0.0
+							cabal-version:      >= 1.8
+							build-type:         Simple
+							extra-source-files: routes
+
+							executable          formulario
+							  main-is:          formulario.hs
+
+							  ghc-options:      -Wall -fwarn-tabs -O2
+
+							  build-depends:  base
+							                , yesod
+							                , yesod-core
+							                , text
+
+							  ghc-options: -ddump-splices
+
+
+							```
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Formulário
+							``` formulario.hs ```
+							``` 
+								{-# LANGUAGE OverloadedStrings     #-}
+								{-# LANGUAGE TypeFamilies          #-}
+								{-# LANGUAGE QuasiQuotes           #-}
+								{-# LANGUAGE TemplateHaskell       #-}
+								{-# LANGUAGE MultiParamTypeClasses #-}
+
+								import Yesod
+								import Data.Text
+								import Control.Applicative((<$>),(<*>))
+
+
+								data Formulario = Formulario
+								data Mensagem = Mensagem { conteudo::Text }
+
+
+								mkYesod "Formulario" [parseRoutes|
+								/ HomeR GET POST
+								|]
+
+								instance Yesod Formulario where
+
+
+								type Form a = Html -> MForm Handler (FormResult a, Widget)
+
+
+								getHomeR :: Handler Html
+								getHomeR = do
+								             (widget, enctype) <- generateFormPost $ formMensagem (Just "Mensagem Padrão")
+								             defaultLayout $ widgetForm HomeR enctype widget "Mensagems"
+
+								postHomeR :: Handler Html
+								postHomeR = do
+								            ( ( resultado , _ ) , _ ) <- runFormPost $ formMensagem Nothing
+								            (widget, enctype) <- generateFormPost $ formMensagem (Just "Mensagem Padrão")
+								            case resultado of
+								                FormSuccess msg -> defaultLayout $
+								                                    [whamlet|<h1><i> #{ conteudo msg } |] >>
+								                                     widgetForm HomeR enctype widget "Mensagems"
+								                _ -> redirect HomeR
+
+
+
+								formMensagem :: Maybe Text -> Form Mensagem
+								formMensagem msg = renderDivs $ Mensagem 
+								                   <$> areq textField "Mensagem" msg
+
+								widgetForm :: Route Formulario -> Enctype -> Widget -> Text -> Widget
+								widgetForm action enctype widget titulo = [whamlet|
+								            <h1> #{titulo}
+								            <form method=post action=@{action} enctype=#{enctype}>
+								                ^{widget}
+								                <input type="submit" value="Enviar">
+								|]
+
+
+								instance RenderMessage Formulario FormMessage where
+								    renderMessage _ _ = defaultFormMessage
+
+
+
+								main :: IO ()
+								main = warp 3000 Formulario
+							```
+						</script>
+					</section>
+				</section>
+
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Shakespear
+							Árvore do projeto
+							```
+							.
+							├── shakespear.cabal
+							├── shakespear.hs
+							├── stack.yaml
+							└── templates
+							    ├── client_session_key.aes
+							    ├── default-base.hamlet
+							    ├── default.hamlet
+							    ├── home.cassius
+							    ├── home.julius
+							    └── home.lucius
+							```
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Shakespear
+							shakespear.cabal
+							```
+							name:               shakespear
+							version:            0.0.0
+							cabal-version:      >= 1.8
+							build-type:         Simple
+							extra-source-files: routes
+
+							executable          shakespear
+							  main-is:          shakespear.hs
+
+							  ghc-options:      -Wall -fwarn-tabs -O2
+
+							  build-depends:  base
+							                , yesod
+							                , yesod-core
+							                , yesod-static
+							                , text
+							                , shakespeare
+
+							  ghc-options: -ddump-splices
+
+							```
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Shakespear
+							shakespear.hs
+							```
+							{-# LANGUAGE OverloadedStrings #-}
+							{-# LANGUAGE QuasiQuotes       #-}
+							{-# LANGUAGE TemplateHaskell   #-}
+							{-# LANGUAGE TypeFamilies      #-}
+							import           Yesod
+							import qualified Data.Text as TS
+							import           Text.Hamlet
+							import           Text.Lucius
+							import           Text.Cassius
+							import           Text.Julius
+
+							data Shakespear = Shakespear
+							mkYesod "Shakespear" [parseRoutes|
+							/ HomeR GET
+							/bue BlueR GET
+							/red RedR GET
+							|]
+
+							meuLayout :: Widget -> Handler Html
+							meuLayout widget = do
+							    pc <- widgetToPageContent widget
+							    withUrlRenderer
+							        $(hamletFile "templates/default-base.hamlet")
+
+							instance Yesod Shakespear where
+							    defaultLayout = meuLayout
+
+
+							getHomeR ::  Handler Html
+							getHomeR = pagina "Principal" [whamlet| <h1>Principal|]
+
+							getRedR :: Handler Html
+							getRedR = pagina "Red" [whamlet| <h1>Red|]
+
+							getBlueR :: Handler Html
+							getBlueR = pagina "Blue" [whamlet| <h1>Blue|]
+
+
+							pagina :: Html  -> Widget -> Handler Html
+							pagina title widget = defaultLayout $ do
+							                face <- newIdent
+							                setTitle title
+							                header >> nav >> widget >> (footer face) >> cssCassius >> cssLucius >> (jsJulius)
+							      
+							header :: Widget
+							header = toWidget [hamlet|
+							    <header>
+							        <h1>Header
+							|]
+
+							nav :: Widget
+							nav  = toWidget [hamlet|
+							    <ul>
+							      <li>
+							        <a href=@{HomeR}> Home
+							      <li>
+							        <a href=@{BlueR}> Blue
+							      <li>
+							        <a href=@{RedR}> Red
+							|]
+
+
+							footer :: TS.Text -> Widget
+							footer face =  [whamlet|
+							    <footer class=footer>
+							      Footer 
+							        <i id=#{ face }>:)        
+							|]
+
+							cssCassius :: Widget
+							cssCassius = toWidget $( cassiusFile "templates/home.cassius")
+							        where
+							            bgColor :: TS.Text
+							            bgColor = "#F00"
+
+
+							cssLucius :: Widget
+							cssLucius = toWidget $( luciusFile "templates/home.lucius")
+
+							jsJulius ::  Widget
+							jsJulius  = toWidgetBody $( juliusFile "templates/home.julius")
+
+							main :: IO ()
+							main = warp 3000 Shakespear
+							```
+						</script>
+					</section>
+					
+					<section data-markdown>
+						<script type="text/template">
+							## shakespear.hs
+							Rotas
+							```
+							mkYesod "Shakespear" [parseRoutes|
+							/ HomeR GET
+							/bue BlueR GET
+							/red RedR GET
+							|]
+							```
+						</script>
+					</section>
+
+
+					<section data-markdown>
+						<script type="text/template">
+							## shakespear.hs
+							Sobreescrita do método defaultLayout
+							```
+							meuLayout :: Widget -> Handler Html
+							meuLayout widget = do
+							    pc <- widgetToPageContent widget
+							    withUrlRenderer
+							        $(hamletFile "templates/default-base.hamlet")
+
+							instance Yesod Shakespear where
+							    defaultLayout = meuLayout
+							```
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Generalizando o template
+							getHomeR, getRedR, getBlueR: Montados com o método pagina
+
+							```
+							pagina :: Html  -> Widget -> Handler Html
+							pagina title widget = defaultLayout $ do
+							                face <- newIdent
+							                setTitle title
+							                header >> nav >> widget >> (footer face) 
+							                >> cssCassius >> cssLucius >> (jsJulius)
+
+							```
+							Aplicando o método em uma rota
+							```
+							getHomeR ::  Handler Html
+							getHomeR = pagina "Principal" [whamlet| <h1>Principal|]
+							```
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## URLs tipadas
+							
+							```
+							nav :: Widget
+							nav  = toWidget [hamlet|
+							    <ul>
+							      <li>
+							        <a href=@{HomeR}> Home
+							      <li>
+							        <a href=@{BlueR}> Blue
+							      <li>
+							        <a href=@{RedR}> Red
+							|]
+							```
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Interpolando Hamlet
+							shakespear.hs
+							```
+							footer :: TS.Text -> Widget
+							footer face =  [whamlet|
+							    <footer class=footer>
+							      Footer 
+							        <i id=#{ face }>:)        
+							|]
+							```
+
+							```
+							OBS. whamlet é um atalho para toWidget [hamlet | .. | ]
+							```
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Interpolando Cassius
+							shakespear.hs
+							```
+							cssCassius :: Widget
+							cssCassius = toWidget $( cassiusFile "templates/home.cassius")
+							        where
+							            bgColor :: TS.Text
+							            bgColor = "#F00"
+							```
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Cassius
+							templates/home.cassius
+							```
+							#content
+							    h1
+							        background: #{ bgColor }
+
+							```
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Lucius
+							templates/home.lucius
+							```
+							@corDoTexto : #FF0;
+
+							#content{
+							    h2{
+							        text-align: center;
+							        color: #{ corDoTexto }
+							    }
+							    > ::first-letter {
+							        font-weight: 800;
+							    }
+							}
+							```
+
+							```
+							@corDoTexto é uma variável
+							```
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+						## Lucius <i>vs</i> Cassius
+						Lucius
+						```
+						body
+							h1
+								font-weight: 500
+								text-align: center
+							p
+								font-size: 1.2 em
+						```
+
+						Cassius
+						```
+						body{
+							h1{
+								font-weight: 500;
+								text-align: center;
+							}
+							p{
+								font-size: 1.2 em;
+							}
+						}
+							
+						```
+						</script>
+					</section>
+				</section>
+
+				<section>
+<img src="img/romefeller-logo.png" alt="Logo Romefeller">
+					<p>
+					  <b>Contato:</b>
+					  <p>
+					  Site: <a href="http://romefeller.io/" title="site para contato">romefeller.io</a>
+					  </p>
+					  <p>
+					  Twitter: <a href="https://twitter.com/ericshortcut" title="twitter">@ericshortcut</a>
+					  </p>
+					</p>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
